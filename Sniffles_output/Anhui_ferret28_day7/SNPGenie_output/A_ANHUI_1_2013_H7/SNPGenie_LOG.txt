@@ -1,0 +1,7 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Tue Aug 13 20:24:57 2019
+temp_vcf4_Anhui_ferret28_day7.vcf	NA	704	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_Anhui_ferret28_day7.vcf	NA	N/A	A total of 1 variants have been excluded because they fall below the minimum minor allele frequency
+temp_vcf4_Anhui_ferret28_day7.vcf	HA	704	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_Anhui_ferret28_day7.vcf	HA	N/A	A total of 1 variants have been excluded because they fall below the minimum minor allele frequency
+NA	NA	NA	SNPGenie completed at local time Tue Aug 13 20:25:07 2019. The process took 10.00 secs, i.e., 0 mins and 10.00 secs

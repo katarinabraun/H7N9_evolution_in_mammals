@@ -1,0 +1,8 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret7_day7.vcf	M1	328	C	C	1	0	328	CAT	0.0376858919303079	0.0376844233817952	Nonsynonymous	Nonsynonymous	25662	0	25169	0	493
+temp_vcf4_GD3_ferret7_day7.vcf	M1	639	G	G	3	0	637	GTG	0.0477689862503893	0.0477672713959145	Synonymous	Synonymous	27856	682	0	27174	0
+temp_vcf4_GD3_ferret7_day7.vcf	M1	655	G	A	1	0	655	GTC	0.381733914357004	0.381719818872388	Nonsynonymous	Nonsynonymous	27082	20127	0	6955	0
+temp_vcf4_GD3_ferret7_day7.vcf	M1	715	G	G	1	1	715	GCC	0.0238923318530843	0.0238913688409177	Nonsynonymous	Nonsynonymous	24810	300	0	24510	0
+temp_vcf4_GD3_ferret7_day7.vcf	M1	729	G	G	3	1	727	CGG	0.0662606049954737	0.0662579494726701	Synonymous	Synonymous	24952	856	0	24096	0
+temp_vcf4_GD3_ferret7_day7.vcf	M2	715	G	G	3	1	25	ACG	0.0238923318530843	0.0238913688409177	Synonymous	Synonymous	24810	300	0	24510	0
+temp_vcf4_GD3_ferret7_day7.vcf	M2	729	G	G	2	1	728	GGA	0.0662606049954737	0.0662579494726701	Nonsynonymous	Nonsynonymous	24952	856	0	24096	0

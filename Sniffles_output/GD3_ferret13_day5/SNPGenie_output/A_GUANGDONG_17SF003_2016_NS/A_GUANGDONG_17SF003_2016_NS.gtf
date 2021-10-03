@@ -1,0 +1,7 @@
+A_GUANGDONG_17SF003_2016_NS	bowtie2	gene	1	654	.	+	.	gene_id "NS1";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	transcript	1	654	.	+	.	gene_id "NS1"; transcript_id "NS1";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	CDS	1	654	.	+	0	gene_id "NS1"; transcript_id "NS1";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	gene	1	838	.	+	.	gene_id "NEP";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	transcript	1	838	.	+	.	gene_id "NEP"; transcript_id "NEP";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	CDS	1	30	.	+	0	gene_id "NEP"; transcript_id "NEP";
+A_GUANGDONG_17SF003_2016_NS	bowtie2	CDS	503	838	.	+	0	gene_id "NEP"; transcript_id "NEP";

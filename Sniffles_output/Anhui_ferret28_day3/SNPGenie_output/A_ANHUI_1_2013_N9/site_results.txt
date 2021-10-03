@@ -1,0 +1,2 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_Anhui_ferret28_day3.vcf	NA	29	C	T	2	0	28	ACT	0	0	Nonsynonymous	NONREF_NONPOLY	734	0	0	0	734

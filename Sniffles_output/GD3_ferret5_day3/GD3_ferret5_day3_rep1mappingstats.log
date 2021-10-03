@@ -1,0 +1,19 @@
+144331 reads; of these:
+  144331 (100.00%) were paired; of these:
+    18595 (12.88%) aligned concordantly 0 times
+    125508 (86.96%) aligned concordantly exactly 1 time
+    228 (0.16%) aligned concordantly >1 times
+    ----
+    18595 pairs aligned concordantly 0 times; of these:
+      18146 (97.59%) aligned discordantly 1 time
+    ----
+    449 pairs aligned 0 times concordantly or discordantly; of these:
+      898 mates make up the pairs; of these:
+        857 (95.43%) aligned 0 times
+        26 (2.90%) aligned exactly 1 time
+        15 (1.67%) aligned >1 times
+99.70% overall alignment rate
+Error, fewer reads in file specified with -1 than in file specified with -2
+terminate called after throwing an instance of 'int'
+Aborted
+(ERR): bowtie2-align exited with value 134

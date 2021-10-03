@@ -1,0 +1,16 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	18	A	A	3	0	16	CGA	0.061976389946687	0.0619291878218229	Synonymous	Synonymous	1313	1271	0	42	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	336	C	C	3	0	334	TAC	0.0403325293538499	0.0403272405354191	Synonymous	Synonymous	7626	0	7469	0	157
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	395	T	T	2	0	394	CTA	0.024843978330548	0.0248407895257308	Nonsynonymous	Nonsynonymous	7791	98	0	0	7693
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	402	G	G	3	0	400	AAG	0.237850706291804	0.23781882281911	Synonymous	Synonymous	7460	1029	0	6431	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	811	C	C	1	0	811	CCT	0.276964930935564	0.276945745224083	Nonsynonymous	Nonsynonymous	14436	0	12039	0	2397
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	862	C	T	1	0	862	CTG	0.459108330311845	0.459076680764739	Synonymous	Synonymous	14506	0	5178	0	9328
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	930	C	C	3	0	928	TGC	0.0540734133650682	0.0540694873203891	Synonymous	Synonymous	13773	0	13390	0	383
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1070	C	C	2	0	1069	ACA	0.271263976860442	0.271246771229537	Nonsynonymous	Nonsynonymous	15766	0	13215	0	2551
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1076	A	G	2	0	1075	AAC	0.450798223028857	0.450769045150344	Nonsynonymous	Nonsynonymous	15450	5301	0	10149	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1346	A	A	2	0	1345	GAA	0.291903320211731	0.291883454734652	Nonsynonymous	Nonsynonymous	14694	12087	0	2607	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1602	G	G	3	0	1600	CCG	0.0519281043595995	0.0519223332877659	Synonymous	Synonymous	8998	240	0	8758	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1842	C	C	3	0	1840	AAC	0.0430430679450209	0.0430381352074611	Synonymous	Synonymous	8726	0	8534	0	192
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	1902	G	G	3	0	1900	GGG	0.48681138865591	0.486760642133586	Synonymous	Synonymous	9593	4016	0	5577	0
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	2014	C	C	1	0	2014	CTC	0.0556525044902047	0.0556472606850138	Nonsynonymous	Nonsynonymous	10613	0	10309	0	304
+temp_vcf4_GD3_ferret1_day5_rep1.vcf	PA	2138	A	A	2	0	2137	CAT	0.0623778024730557	0.0623679012345679	Nonsynonymous	Nonsynonymous	6300	6097	0	203	0

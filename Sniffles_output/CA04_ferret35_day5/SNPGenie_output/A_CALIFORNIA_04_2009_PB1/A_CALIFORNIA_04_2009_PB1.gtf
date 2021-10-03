@@ -1,0 +1,3 @@
+A_CALIFORNIA_04_2009_PB1	bowtie2	gene	1	2274	.	+	.	gene_id "PB1";
+A_CALIFORNIA_04_2009_PB1	bowtie2	transcript	1	2274	.	+	.	gene_id "PB1"; transcript_id "PB1";
+A_CALIFORNIA_04_2009_PB1	bowtie2	CDS	1	2274	.	+	0	gene_id "PB1"; transcript_id "PB1";

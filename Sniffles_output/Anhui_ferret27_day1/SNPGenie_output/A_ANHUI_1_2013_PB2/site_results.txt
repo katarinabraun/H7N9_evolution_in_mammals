@@ -1,0 +1,16 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	93	C	C	3	0	91	ATC	0.024864047027754	0.0248562232244098	Synonymous	Synonymous	3178	0	3138	0	40
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	216	G	G	3	0	214	GAG	0.0917851948560754	0.0917727998263851	Synonymous	Synonymous	7405	357	0	7048	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	752	G	G	2	0	751	AGA	0.0414400405977942	0.0414365179829863	Nonsynonymous	Nonsynonymous	11764	249	0	11515	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	990	C	C	3	0	988	TTC	0.421214560431001	0.421181352092904	Synonymous	Synonymous	12684	0	8860	0	3824
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1077	A	A	3	0	1075	GGA	0.0723855763776152	0.0723801432487119	Synonymous	Synonymous	13323	12822	0	501	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1083	G	G	3	0	1081	GAG	0.254501518659532	0.254483289197555	Synonymous	Synonymous	13961	2089	0	11872	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1125	G	G	3	0	1123	AGG	0.027177025116361	0.0271752074983087	Synonymous	Synonymous	14952	206	0	14746	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1134	C	C	3	0	1132	ACC	0.0726903561482475	0.0726855814270082	Synonymous	Synonymous	15224	0	14649	0	575
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1278	G	G	3	0	1276	CAG	0.0881357706631841	0.0881298523331637	Synonymous	Synonymous	14892	688	0	14204	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1282	C	C	1	0	1282	CTA	0.0311109571422002	0.0311088825251595	Synonymous	Synonymous	14996	0	14759	0	237
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1290	C	C	3	0	1288	CCC	0.260956637879601	0.260939772589232	Synonymous	Synonymous	15473	0	13086	0	2387
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1329	G	G	3	0	1327	AAG	0.238753358909681	0.238737544286981	Synonymous	Synonymous	15097	2092	0	13005	0
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1333	C	C	1	0	1333	CTG	0.0349503476202932	0.0349480188391351	Synonymous	Synonymous	15008	0	14741	0	267
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1819	C	C	1	0	1819	CTG	0.423961473146148	0.423923333395055	Synonymous	Synonymous	11116	0	7726	0	3390
+temp_vcf4_Anhui_ferret27_day1.vcf	PB2	1977	C	C	3	0	1975	AAC	0.101097122168198	0.101089476038856	Synonymous	Synonymous	13222	0	12516	0	706

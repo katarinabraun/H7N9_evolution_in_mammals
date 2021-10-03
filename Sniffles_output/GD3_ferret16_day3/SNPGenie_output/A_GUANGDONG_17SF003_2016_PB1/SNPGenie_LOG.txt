@@ -1,0 +1,3 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Thu Aug  8 17:27:59 2019
+NA	NA	NA	SNPGenie completed at local time Thu Aug  8 17:28:12 2019. The process took 13.00 secs, i.e., 0 mins and 13.00 secs

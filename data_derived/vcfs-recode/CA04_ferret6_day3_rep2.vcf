@@ -1,0 +1,33 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=VarScan2
+##INFO=<ID=ADP,Number=1,Type=Integer,Description="Average per-sample depth of bases with Phred score >= 30">
+##INFO=<ID=WT,Number=1,Type=Integer,Description="Number of samples called reference (wild-type)">
+##INFO=<ID=HET,Number=1,Type=Integer,Description="Number of samples called heterozygous-variant">
+##INFO=<ID=HOM,Number=1,Type=Integer,Description="Number of samples called homozygous-variant">
+##INFO=<ID=NC,Number=1,Type=Integer,Description="Number of samples not called">
+##FILTER=<ID=str10,Description="Less than 10% or more than 90% of variant supporting reads on one strand">
+##FILTER=<ID=indelError,Description="Likely artifact due to indel reads at this position">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Raw Read Depth as reported by SAMtools">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Quality Read Depth of bases with Phred score >= 30">
+##FORMAT=<ID=RD,Number=1,Type=Integer,Description="Depth of reference-supporting bases (reads1)">
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description="Depth of variant-supporting bases (reads2)">
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description="Variant allele frequency">
+##FORMAT=<ID=PVAL,Number=1,Type=String,Description="P-value from Fisher's Exact Test">
+##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description="Average quality of reference-supporting bases (qual1)">
+##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description="Average quality of variant-supporting bases (qual2)">
+##FORMAT=<ID=RDF,Number=1,Type=Integer,Description="Depth of reference-supporting bases on forward strand (reads1plus)">
+##FORMAT=<ID=RDR,Number=1,Type=Integer,Description="Depth of reference-supporting bases on reverse strand (reads1minus)">
+##FORMAT=<ID=ADF,Number=1,Type=Integer,Description="Depth of variant-supporting bases on forward strand (reads2plus)">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	CA04_ferret6_day3_rep2
+A_CALIFORNIA_04_2009_PB2	438	.	T	C	.	PASS	ADP=4243;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:137:4327:4243:4180:61:1.44%:1.6202E-14:37:37:2493:1687:42:19
+A_CALIFORNIA_04_2009_PB2	612	.	G	A	.	PASS	ADP=5825;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:5868:5825:5451:370:6.35%:2.177E-105:37:37:2720:2731:227:143
+A_CALIFORNIA_04_2009_PB2	1413	.	G	A	.	PASS	ADP=6377;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:6434:6377:4723:1654:25.94%:0E0:37:36:2212:2511:895:759
+A_CALIFORNIA_04_2009_PA	1326	.	G	A	.	PASS	ADP=6345;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:6406:6345:6160:185:2.92%:5.7295E-48:37:37:2891:3269:96:89
+A_CALIFORNIA_04_2009_H1	24	.	G	A	.	PASS	ADP=1024;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:67:1031:1024:997:26:2.54%:1.7974E-7:37:37:702:295:19:7
+A_CALIFORNIA_04_2009_H1	316	.	A	T	.	PASS	ADP=8095;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:8172:8095:7951:143:1.77%:1.1704E-33:37:37:4226:3725:76:67
+A_CALIFORNIA_04_2009_H1	425	.	A	G	.	PASS	ADP=7080;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:7168:7080:6465:615:8.69%:4.8096E-178:37:37:3171:3294:258:357
+A_CALIFORNIA_04_2009_H1	619	.	A	G	.	PASS	ADP=6221;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:6326:6221:6078:142:2.28%:1.8246E-35:37:37:3096:2982:60:82
+A_CALIFORNIA_04_2009_NS	335	.	T	C	.	PASS	ADP=14310;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:14541:14310:14114:193:1.35%:5.7986E-42:37:37:6735:7379:104:89

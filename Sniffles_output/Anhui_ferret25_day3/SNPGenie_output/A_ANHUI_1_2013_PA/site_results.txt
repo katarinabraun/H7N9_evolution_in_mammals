@@ -1,0 +1,16 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	216	G	G	3	0	214	CTG	0.112282525530545	0.112255391039117	Synonymous	Synonymous	4138	247	0	3891	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	399	G	G	3	0	397	GAG	0.0746179090939727	0.0746041849981305	Synonymous	Synonymous	5437	211	0	5226	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	636	C	C	3	0	634	CGC	0.101407117199058	0.10139618735241	Synonymous	Synonymous	9278	0	8781	0	497
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	720	C	C	3	0	718	GGC	0.0530921992226681	0.0530871686940322	Synonymous	Synonymous	10554	0	10266	0	288
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	802	C	C	1	0	802	CTC	0.0388425797646457	0.038839000463156	Nonsynonymous	Nonsynonymous	10852	0	10637	0	215
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	888	C	C	3	0	886	AGC	0.0499625121708825	0.04995764205565	Synonymous	Synonymous	10259	0	9996	0	263
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	993	C	C	3	0	991	AAC	0.0873488162430127	0.0873410691196208	Synonymous	Synonymous	11275	0	10759	0	516
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1027	G	G	1	0	1027	GCA	0.0465308653873304	0.046526974521423	Nonsynonymous	Nonsynonymous	11959	285	0	11674	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1037	A	A	2	0	1036	CAG	0.0377279561499451	0.0377248945613586	Nonsynonymous	Nonsynonymous	12323	12086	0	237	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1046	A	A	2	0	1045	GAA	0.0884571261525441	0.0884498397335858	Nonsynonymous	Nonsynonymous	12140	11577	0	563	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1226	A	A	2	0	1225	AAT	0.13606485043351	0.136052829508478	Nonsynonymous	Nonsynonymous	11319	10488	0	831	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1557	C	C	3	0	1555	AAC	0.0476760839263502	0.047669350967174	Synonymous	Synonymous	7081	0	6908	0	173
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1648	C	C	1	0	1648	CTG	0.0952796124813852	0.0952661909272956	Synonymous	Synonymous	7099	0	6743	0	356
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1867	G	G	1	0	1867	GAG	0.154822744573492	0.154800818112003	Nonsynonymous	Nonsynonymous	7061	597	0	6464	0
+temp_vcf4_Anhui_ferret25_day3.vcf	PA	1921	C	C	1	0	1921	CTA	0.0986526115166103	0.0986391048611455	Synonymous	Synonymous	7304	0	6924	0	380

@@ -1,0 +1,2 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_CA04_ferret35_day5.vcf	PA	854	T	T	2	0	853	ATG	0.0593271370507685	0.0593226326747112	Nonsynonymous	Nonsynonymous	13171	403	0	0	12768

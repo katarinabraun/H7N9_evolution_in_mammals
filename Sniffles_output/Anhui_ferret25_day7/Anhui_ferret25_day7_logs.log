@@ -1,0 +1,604 @@
+***********
+Beginning run at Wed, 08 Jan 2020 03:20:17 PM
+Beginning run at Wed, 08 Jan 2020 03:20:17 PM
+***********
+Processing samples for reference sequence Anhui_ferret25_day7
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Calling replicate SNPs with Varscan
+Anhui_ferret25_day7_rep2
+-----------
+Anhui_ferret25_day7_rep1
+-----------
+***********
+Calling SNPs
+15:20:20	[mpileup] 1 samples in 1 input files
+15:23:57	Got the following sample list: 
+15:23:57	Anhui_ferret25_day7_rep1
+15:23:57	Only SNPs will be reported
+15:23:57	Warning: No p-value threshold provided, so p-values will not be calculated
+15:23:57	Min coverage:	100
+15:23:57	Min reads2:	2
+15:23:57	Min var freq:	0.01
+15:23:57	Min avg qual:	30
+15:23:57	P-value thresh:	0.01
+15:23:57	Reading input from Anhui_ferret25_day7_rep1.mpileup
+15:24:46	12774 bases in pileup file
+15:24:46	119 variant positions (104 SNP, 15 indel)
+15:24:46	0 were failed by the strand-filter
+15:24:46	104 variant positions reported (104 SNP, 0 indel)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_H7' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_N9' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_MP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	[W::vcf_parse] Contig 'A_ANHUI_1_2013_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:46	Lines   total/split/realigned/skipped:	104/0/0/0
+15:24:46	REF/ALT total/modified/added:  	104/0/0
+15:20:20	[mpileup] 1 samples in 1 input files
+15:23:12	Got the following sample list: 
+15:23:12	Anhui_ferret25_day7_rep2
+15:23:12	Only SNPs will be reported
+15:23:12	Warning: No p-value threshold provided, so p-values will not be calculated
+15:23:12	Min coverage:	100
+15:23:12	Min reads2:	2
+15:23:12	Min var freq:	0.01
+15:23:12	Min avg qual:	30
+15:23:12	P-value thresh:	0.01
+15:23:12	Reading input from Anhui_ferret25_day7_rep2.mpileup
+15:24:10	13103 bases in pileup file
+15:24:10	152 variant positions (138 SNP, 14 indel)
+15:24:10	0 were failed by the strand-filter
+15:24:10	138 variant positions reported (138 SNP, 0 indel)
+15:24:10	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_H7' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_N9' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_MP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	[W::vcf_parse] Contig 'A_ANHUI_1_2013_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:24:11	Lines   total/split/realigned/skipped:	138/0/0/0
+15:24:11	REF/ALT total/modified/added:  	138/0/0
+['Anhui_ferret25_day7_rep2_averaged.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+A_ANHUI_1_2013_PB1
+-----------
+A_ANHUI_1_2013_PB2
+-----------
+A_ANHUI_1_2013_PA
+-----------
+A_ANHUI_1_2013_H7
+-----------
+A_ANHUI_1_2013_NP
+-----------
+A_ANHUI_1_2013_N9
+-----------
+A_ANHUI_1_2013_MP
+-----------
+A_ANHUI_1_2013_NS
+-----------
+***********
+Getting Population Statistics
+-----------
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2
+15:24:49	
+15:24:49	
+15:24:49	################################################################################
+15:24:49	##                                                                            ##
+15:24:49	##                             SNPGenie Initiated!                            ##
+15:24:49	##                                                                            ##
+15:24:49	################################################################################
+15:24:49	
+15:24:49	  ###############################  LICENSE:  #################################
+15:24:49	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:24:49	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:24:49	  ##     This is free software, and you are welcome to redistribute it      ##
+15:24:49	  ##               under certain conditions; see LICENSE.txt.               ##
+15:24:49	  ############################################################################
+15:24:49	
+15:24:49	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2
+15:24:49	
+15:24:49	Reading in FASTA file... COMPLETED.
+15:24:49	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:24:49	
+15:24:49	
+15:24:49	###########################  CURRENTLY PROCESSING:   ###########################
+15:24:49	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:24:49	
+15:24:49	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:24:49	
+15:24:49	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:24:49	
+15:24:49	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:24:49	
+15:24:49	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:24:49	
+15:24:49	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:24:49	
+15:24:49	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:24:49	
+15:24:49	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2
+15:25:03	COMPLETED.
+15:25:03	
+15:25:03	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:03	
+15:25:03	
+15:25:03	Performing sliding window for all files, length 4 codons...
+15:25:03	
+15:25:03	
+15:25:03	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2
+15:25:07	
+15:25:07	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2
+15:25:07	
+15:25:07	################################################################################
+15:25:07	##                      SNPGenie completed successfully.                      ##
+15:25:07	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB2 folder.            ##
+15:25:07	################################################################################
+15:25:07	
+15:25:07	
+-----------
+15:24:48	
+15:24:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1
+15:24:49	
+15:24:49	
+15:24:49	################################################################################
+15:24:49	##                                                                            ##
+15:24:49	##                             SNPGenie Initiated!                            ##
+15:24:49	##                                                                            ##
+15:24:49	################################################################################
+15:24:49	
+15:24:49	  ###############################  LICENSE:  #################################
+15:24:49	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:24:49	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:24:49	  ##     This is free software, and you are welcome to redistribute it      ##
+15:24:49	  ##               under certain conditions; see LICENSE.txt.               ##
+15:24:49	  ############################################################################
+15:24:49	
+15:24:49	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1
+15:24:49	
+15:24:49	Reading in FASTA file... COMPLETED.
+15:24:49	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:24:49	
+15:24:49	
+15:24:49	###########################  CURRENTLY PROCESSING:   ###########################
+15:24:49	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:24:49	
+15:24:49	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:24:49	
+15:24:49	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:24:49	
+15:24:49	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:24:49	
+15:24:49	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:24:49	
+15:24:49	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:24:49	
+15:24:49	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:24:49	
+15:24:49	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1
+15:25:01	COMPLETED.
+15:25:01	
+15:25:01	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:01	
+15:25:01	
+15:25:01	Performing sliding window for all files, length 4 codons...
+15:25:01	
+15:25:01	
+15:25:01	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1
+15:25:05	
+15:25:05	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1
+15:25:05	
+15:25:05	################################################################################
+15:25:05	##                      SNPGenie completed successfully.                      ##
+15:25:05	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PB1 folder.            ##
+15:25:05	################################################################################
+15:25:05	
+15:25:05	
+-----------
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA
+15:24:49	
+15:24:49	
+15:24:49	################################################################################
+15:24:49	##                                                                            ##
+15:24:49	##                             SNPGenie Initiated!                            ##
+15:24:49	##                                                                            ##
+15:24:49	################################################################################
+15:24:49	
+15:24:49	  ###############################  LICENSE:  #################################
+15:24:49	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:24:49	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:24:49	  ##     This is free software, and you are welcome to redistribute it      ##
+15:24:49	  ##               under certain conditions; see LICENSE.txt.               ##
+15:24:49	  ############################################################################
+15:24:49	
+15:24:49	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA
+15:24:49	
+15:24:49	Reading in FASTA file... COMPLETED.
+15:24:49	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:24:49	
+15:24:49	
+15:24:49	###########################  CURRENTLY PROCESSING:   ###########################
+15:24:49	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:24:49	
+15:24:49	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:24:49	
+15:24:49	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:24:49	
+15:24:49	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:24:49	
+15:24:49	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:24:49	
+15:24:49	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... 
+15:24:49	## Variant 'C' excluded from analysis because it falls below the
+15:24:49	## minimum minor allele frequency at:
+15:24:49	## temp_vcf4_Anhui_ferret25_day7_rep1.vcf|802
+15:24:49	
+15:24:49	## In temp_vcf4_Anhui_ferret25_day7_rep1.vcf|N/A
+15:24:49	## A total of 1 variants have been excluded because they
+15:24:49	## fall below the minimum minor allele frequency.
+15:24:49	COMPLETED.
+15:24:49	
+15:24:49	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:24:49	
+15:24:49	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:24:49	## Variant 'C' excluded from analysis because it falls below the
+15:24:49	## minimum minor allele frequency at:
+15:24:49	## temp_vcf4_Anhui_ferret25_day7_rep1.vcf|PA|802
+15:24:49	
+15:24:49	## In temp_vcf4_Anhui_ferret25_day7_rep1.vcf|PA|N/A
+15:24:49	## A total of 1 variants have been excluded because they
+15:24:49	## fall below the minimum minor allele frequency.
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA
+15:24:59	COMPLETED.
+15:24:59	
+15:24:59	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:24:59	
+15:24:59	
+15:24:59	Performing sliding window for all files, length 4 codons...
+15:24:59	
+15:24:59	
+15:24:59	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA
+15:25:02	
+15:25:02	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA
+15:25:02	
+15:25:02	################################################################################
+15:25:02	##                      SNPGenie completed successfully.                      ##
+15:25:02	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_PA folder.            ##
+15:25:02	################################################################################
+15:25:02	
+15:25:02	
+-----------
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7
+15:24:49	
+15:24:49	
+15:24:49	################################################################################
+15:24:49	##                                                                            ##
+15:24:49	##                             SNPGenie Initiated!                            ##
+15:24:49	##                                                                            ##
+15:24:49	################################################################################
+15:24:49	
+15:24:49	  ###############################  LICENSE:  #################################
+15:24:49	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:24:49	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:24:49	  ##     This is free software, and you are welcome to redistribute it      ##
+15:24:49	  ##               under certain conditions; see LICENSE.txt.               ##
+15:24:49	  ############################################################################
+15:24:49	
+15:24:49	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:24:49	
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7
+15:24:49	
+15:24:49	Reading in FASTA file... COMPLETED.
+15:24:49	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:24:49	
+15:24:49	
+15:24:49	###########################  CURRENTLY PROCESSING:   ###########################
+15:24:49	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:24:49	
+15:24:49	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:24:49	
+15:24:49	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:24:49	
+15:24:49	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:24:49	
+15:24:49	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:24:49	
+15:24:49	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:24:49	
+15:24:49	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:24:49	
+15:24:49	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:24:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7
+15:24:58	COMPLETED.
+15:24:58	
+15:24:58	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:24:58	
+15:24:58	
+15:24:58	Performing sliding window for all files, length 4 codons...
+15:24:58	
+15:24:58	
+15:24:58	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7
+15:25:00	
+15:25:00	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7
+15:25:00	
+15:25:00	################################################################################
+15:25:00	##                      SNPGenie completed successfully.                      ##
+15:25:00	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_H7 folder.            ##
+15:25:00	################################################################################
+15:25:00	
+15:25:00	
+-----------
+15:25:02	
+15:25:02	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP
+15:25:02	
+15:25:02	
+15:25:02	################################################################################
+15:25:02	##                                                                            ##
+15:25:02	##                             SNPGenie Initiated!                            ##
+15:25:02	##                                                                            ##
+15:25:02	################################################################################
+15:25:02	
+15:25:02	  ###############################  LICENSE:  #################################
+15:25:02	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:25:02	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:25:02	  ##     This is free software, and you are welcome to redistribute it      ##
+15:25:02	  ##               under certain conditions; see LICENSE.txt.               ##
+15:25:02	  ############################################################################
+15:25:02	
+15:25:02	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:25:02	
+15:25:02	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP
+15:25:02	
+15:25:02	Reading in FASTA file... COMPLETED.
+15:25:02	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:25:02	
+15:25:02	
+15:25:02	###########################  CURRENTLY PROCESSING:   ###########################
+15:25:02	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:25:02	
+15:25:02	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:25:02	
+15:25:02	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:25:02	
+15:25:02	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:25:02	
+15:25:02	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:25:02	
+15:25:02	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:25:02	
+15:25:02	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:25:02	
+15:25:02	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:25:02	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP
+15:25:11	COMPLETED.
+15:25:11	
+15:25:11	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:11	
+15:25:11	
+15:25:11	Performing sliding window for all files, length 4 codons...
+15:25:11	
+15:25:11	
+15:25:11	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP
+15:25:13	
+15:25:13	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP
+15:25:13	
+15:25:13	################################################################################
+15:25:13	##                      SNPGenie completed successfully.                      ##
+15:25:13	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NP folder.            ##
+15:25:13	################################################################################
+15:25:13	
+15:25:13	
+-----------
+15:25:05	
+15:25:05	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9
+15:25:05	
+15:25:05	
+15:25:05	################################################################################
+15:25:05	##                                                                            ##
+15:25:05	##                             SNPGenie Initiated!                            ##
+15:25:05	##                                                                            ##
+15:25:05	################################################################################
+15:25:05	
+15:25:05	  ###############################  LICENSE:  #################################
+15:25:05	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:25:05	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:25:05	  ##     This is free software, and you are welcome to redistribute it      ##
+15:25:05	  ##               under certain conditions; see LICENSE.txt.               ##
+15:25:05	  ############################################################################
+15:25:05	
+15:25:05	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:25:05	
+15:25:05	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9
+15:25:05	
+15:25:05	Reading in FASTA file... COMPLETED.
+15:25:05	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:25:05	
+15:25:05	
+15:25:05	###########################  CURRENTLY PROCESSING:   ###########################
+15:25:05	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:25:05	
+15:25:05	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:25:05	
+15:25:05	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:25:05	
+15:25:05	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:25:05	
+15:25:05	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:25:05	
+15:25:05	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:25:05	
+15:25:05	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:25:05	
+15:25:05	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:25:05	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9
+15:25:14	COMPLETED.
+15:25:14	
+15:25:14	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:14	
+15:25:14	
+15:25:14	Performing sliding window for all files, length 4 codons...
+15:25:14	
+15:25:14	
+15:25:14	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9
+15:25:15	
+15:25:15	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9
+15:25:15	
+15:25:15	################################################################################
+15:25:15	##                      SNPGenie completed successfully.                      ##
+15:25:15	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_N9 folder.            ##
+15:25:15	################################################################################
+15:25:15	
+15:25:15	
+-----------
+15:25:07	
+15:25:07	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:07	
+15:25:07	
+15:25:07	################################################################################
+15:25:07	##                                                                            ##
+15:25:07	##                             SNPGenie Initiated!                            ##
+15:25:07	##                                                                            ##
+15:25:07	################################################################################
+15:25:07	
+15:25:07	  ###############################  LICENSE:  #################################
+15:25:07	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:25:07	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:25:07	  ##     This is free software, and you are welcome to redistribute it      ##
+15:25:07	  ##               under certain conditions; see LICENSE.txt.               ##
+15:25:07	  ############################################################################
+15:25:07	
+15:25:07	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:25:07	
+15:25:07	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:07	
+15:25:07	Reading in FASTA file... COMPLETED.
+15:25:07	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:25:07	
+15:25:07	
+15:25:07	###########################  CURRENTLY PROCESSING:   ###########################
+15:25:07	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:25:07	
+15:25:07	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:25:07	
+15:25:07	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:25:07	
+15:25:07	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:25:07	
+15:25:07	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:25:07	
+15:25:07	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:25:07	
+15:25:07	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:25:07	
+15:25:07	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:25:07	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:12	
+15:25:12	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:14	COMPLETED.
+15:25:14	
+15:25:14	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:14	
+15:25:14	
+15:25:14	Performing sliding window for all files, length 4 codons...
+15:25:14	
+15:25:14	
+15:25:14	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:15	
+15:25:15	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP
+15:25:15	
+15:25:15	################################################################################
+15:25:15	##                      SNPGenie completed successfully.                      ##
+15:25:15	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_MP folder.            ##
+15:25:15	################################################################################
+15:25:15	
+15:25:15	
+-----------
+15:25:09	
+15:25:09	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:09	
+15:25:09	
+15:25:09	################################################################################
+15:25:09	##                                                                            ##
+15:25:09	##                             SNPGenie Initiated!                            ##
+15:25:09	##                                                                            ##
+15:25:09	################################################################################
+15:25:09	
+15:25:09	  ###############################  LICENSE:  #################################
+15:25:09	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:25:09	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:25:09	  ##     This is free software, and you are welcome to redistribute it      ##
+15:25:09	  ##               under certain conditions; see LICENSE.txt.               ##
+15:25:09	  ############################################################################
+15:25:09	
+15:25:09	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:25:09	
+15:25:09	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:09	
+15:25:09	Reading in FASTA file... COMPLETED.
+15:25:09	Creating temp_vcf4_Anhui_ferret25_day7_rep1.vcf...
+15:25:09	
+15:25:09	
+15:25:09	###########################  CURRENTLY PROCESSING:   ###########################
+15:25:09	temp_vcf4_Anhui_ferret25_day7_rep1.vcf... VCF format detected
+15:25:09	
+15:25:09	Converting temp_vcf4_Anhui_ferret25_day7_rep1.vcf to SNPGenie format...
+15:25:09	
+15:25:09	In file temp_vcf4_Anhui_ferret25_day7_rep1.vcf, the newline type is: Unix (LF, \n)
+15:25:09	
+15:25:09	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:25:09	
+15:25:09	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:25:09	
+15:25:09	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:25:09	
+15:25:09	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:25:09	
+15:25:09	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:25:09	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:11	
+15:25:11	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:15	COMPLETED.
+15:25:15	
+15:25:15	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_Anhui_ferret25_day7_rep1.vcf COMPLETED.
+15:25:15	
+15:25:15	
+15:25:15	Performing sliding window for all files, length 4 codons...
+15:25:15	
+15:25:15	
+15:25:15	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:16	
+15:25:16	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS
+15:25:16	
+15:25:16	################################################################################
+15:25:16	##                      SNPGenie completed successfully.                      ##
+15:25:16	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/Anhui_ferret25_day7/Anhui_ferret25_day7/SNPGenie_output/A_ANHUI_1_2013_NS folder.            ##
+15:25:16	################################################################################
+15:25:16	
+15:25:16	
+***********
+***********
+Sniffles: Finished with a total runtime of 0:04:59.480000.
+
+Anhui_ferret25_day7_rep1.bam, Anhui_ferret25_day7_rep2.bam was/were not successfully snp called during run.

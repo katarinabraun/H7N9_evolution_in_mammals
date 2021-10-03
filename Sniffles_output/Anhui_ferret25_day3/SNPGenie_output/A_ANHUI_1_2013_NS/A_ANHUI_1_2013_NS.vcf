@@ -1,0 +1,9 @@
+##fileformat=VCFv4.2
+##fileformat=VCFv4.2
+##source=JLL
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description='Quality Read Depth of bases with Phred score >= 30'>
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description='Depth of variant-supporting bases (reads2)'>
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description='Variant allele frequency'>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Anhui_ferret25_day3
+A_ANHUI_1_2013_NS	133	.	G	A	.	PASS	ADP=11284;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:19074:18961:18508:453:0.0239:3.2112E-86:37:37
+A_ANHUI_1_2013_NS	154	.	C	T	.	PASS	ADP=12127;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:21378:21149:20018:1131:0.0535:2.3672E-167:37:37

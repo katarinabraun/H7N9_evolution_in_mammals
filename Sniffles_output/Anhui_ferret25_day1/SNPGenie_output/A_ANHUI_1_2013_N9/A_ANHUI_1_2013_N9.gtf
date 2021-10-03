@@ -1,0 +1,3 @@
+A_ANHUI_1_2013_N9	bowtie2	gene	1	1398	.	+	.	gene_id "NA";
+A_ANHUI_1_2013_N9	bowtie2	transcript	1	1398	.	+	.	gene_id "NA"; transcript_id "NA";
+A_ANHUI_1_2013_N9	bowtie2	CDS	1	1398	.	+	0	gene_id "NA"; transcript_id "NA";

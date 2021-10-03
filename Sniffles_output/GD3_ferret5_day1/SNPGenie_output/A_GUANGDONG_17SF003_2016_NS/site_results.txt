@@ -1,0 +1,15 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret5_day1.vcf	NEP	537	G	G	2	1	536	AGA	0.0960645567751489	0.0960613989382344	Nonsynonymous	Nonsynonymous	30421	1539	0	28882	0
+temp_vcf4_GD3_ferret5_day1.vcf	NEP	582	C	C	2	1	581	TCT	0.0229634881294658	0.0229626358938702	Nonsynonymous	Nonsynonymous	26945	0	26632	0	313
+temp_vcf4_GD3_ferret5_day1.vcf	NEP	609	G	G	2	1	608	GGA	0.361063830964281	0.361049513261412	Nonsynonymous	Nonsynonymous	25218	5962	0	19256	0
+temp_vcf4_GD3_ferret5_day1.vcf	NEP	628	G	G	3	1	626	ATG	0.0229131320477168	0.0229120905890536	Nonsynonymous	Nonsynonymous	22001	255	0	21746	0
+temp_vcf4_GD3_ferret5_day1.vcf	NEP	657	A	A	2	0	656	AAC	0.0280486928071009	0.02804712802647	Nonsynonymous	Nonsynonymous	17925	17670	255	0	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	193	G	G	1	0	193	GTG	0.0418982945761954	0.0418967428449788	Nonsynonymous	Nonsynonymous	27001	578	0	26423	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	253	C	C	1	0	253	CCA	0.378591161204163	0.378577850214739	Nonsynonymous	Nonsynonymous	28442	0	21229	0	7213
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	301	G	G	1	0	301	GAT	0.0233017815952914	0.0233009639889197	Nonsynonymous	Nonsynonymous	28500	336	0	28164	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	353	G	G	2	0	352	AGA	0.0387940206930652	0.0387928002563869	Nonsynonymous	Nonsynonymous	31787	629	0	31158	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	436	C	C	1	0	436	CTA	0.345209146216724	0.345199140444537	Synonymous	Synonymous	34501	0	26849	0	7652
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	537	G	G	3	1	535	GAG	0.0960645567751489	0.0960613989382344	Synonymous	Synonymous	30421	1539	0	28882	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	582	C	C	3	1	580	GTC	0.0229634881294658	0.0229626358938702	Synonymous	Synonymous	26945	0	26632	0	313
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	609	G	G	3	1	607	TGG	0.361063830964281	0.361049513261412	Nonsynonymous	Nonsynonymous	25218	5962	0	19256	0
+temp_vcf4_GD3_ferret5_day1.vcf	NS1	628	G	G	1	1	628	GGG	0.0229131320477168	0.0229120905890536	Nonsynonymous	Nonsynonymous	22001	255	0	21746	0

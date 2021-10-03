@@ -1,0 +1,4 @@
+	SNP	FREQ_index	FREQ_contact	total_reads_contact	variant_reads_contact
+0	PB2-1413-G>A	0.17845	0.0	3850.0	0.0
+1	H1-1188-G>A	0.07095	0.17750000000000002	2543.5	615.0
+2	NP-568-G>A	0.01915	0.0207	8482.5	179.0

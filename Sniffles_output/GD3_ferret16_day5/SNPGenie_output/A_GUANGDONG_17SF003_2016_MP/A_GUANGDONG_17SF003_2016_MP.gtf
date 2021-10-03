@@ -1,0 +1,7 @@
+A_GUANGDONG_17SF003_2016_MP	bowtie2	gene	1	759	.	+	.	gene_id "M1";
+A_GUANGDONG_17SF003_2016_MP	bowtie2	transcript	1	759	.	+	.	gene_id "M1"; transcript_id "M1";
+A_GUANGDONG_17SF003_2016_MP	bowtie2	CDS	1	759	.	+	0	gene_id "M1"; transcript_id "M1";
+A_GUANGDONG_17SF003_2016_MP	bowtie2	gene	1	982	.	+	.	gene_id "M2";
+A_GUANGDONG_17SF003_2016_MP	bowtie2	transcript	1	982	.	+	.	gene_id "M2"; transcript_id "M2"; 
+A_GUANGDONG_17SF003_2016_MP	bowtie2	CDS	1	26	.	+	0	gene_id "M2"; transcript_id "M2"; 
+A_GUANGDONG_17SF003_2016_MP	bowtie2	CDS	715	982	.	+	1	gene_id "M2"; transcript_id "M2";

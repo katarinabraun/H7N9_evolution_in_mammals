@@ -1,0 +1,15 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	270	A	A	3	0	268	GAA	0.0341702772159546	0.0341664690941206	Synonymous	Synonymous	8973	8817	0	156	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	471	C	C	3	0	469	GCC	0.0245292247055228	0.0245264303076296	Synonymous	Synonymous	8778	0	8669	0	109
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	513	G	G	3	0	511	GTG	0.021660523579215	0.021658053172785	Synonymous	Synonymous	8768	96	0	8672	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	618	A	A	3	0	616	GGA	0.0250586575773528	0.0250557669720262	Synonymous	Synonymous	8669	8559	0	110	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1186	C	C	1	0	1186	CTG	0.0272286818322427	0.0272251024077874	Synonymous	Synonymous	7607	0	7502	0	105
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1380	G	G	3	0	1378	CAG	0.023349993526276	0.0233469953247447	Synonymous	Synonymous	7788	92	0	7696	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1494	C	C	3	0	1492	CGC	0.402449529702069	0.402391514777793	Synonymous	Synonymous	6937	0	5001	0	1936
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1524	G	G	3	0	1522	GAG	0.087663435683443	0.0876494050439289	Synonymous	Synonymous	6248	287	0	5961	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1688	G	G	2	0	1687	AGG	0.413512716565185	0.41345603216264	Nonsynonymous	Nonsynonymous	7295	2130	0	5165	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1717	G	G	1	0	1717	GCA	0.0216276229836022	0.0216247396849776	Nonsynonymous	Nonsynonymous	7501	82	0	7419	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1735	C	C	1	0	1735	CTG	0.0377077696135087	0.0377029377619436	Synonymous	Synonymous	7804	0	7654	0	150
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	1826	T	T	2	0	1825	GTC	0.110692340259434	0.110679872097656	Nonsynonymous	Nonsynonymous	8878	0	522	0	8356
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	2037	A	A	3	0	2035	CAA	0.114656751943298	0.114640398106193	Synonymous	Synonymous	7011	6583	0	428	0
+temp_vcf4_GD3_ferret5_day5.vcf	PB1	2139	C	C	3	0	2137	AGC	0.0321527608646422	0.0321457559058482	Synonymous	Synonymous	4590	0	4515	0	75

@@ -1,0 +1,3 @@
+A_CALIFORNIA_04_2009_N1	bowtie2	gene	1	1410	.	+	.	gene_id "NA";
+A_CALIFORNIA_04_2009_N1	bowtie2	transcript	1	1410	.	+	.	gene_id "NA"; transcript_id "NA";
+A_CALIFORNIA_04_2009_N1	bowtie2	CDS	1	1410	.	+	0	gene_id "NA"; transcript_id "NA";

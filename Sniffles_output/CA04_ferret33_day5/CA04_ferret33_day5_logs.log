@@ -1,0 +1,585 @@
+***********
+Beginning run at Wed, 08 Jan 2020 03:49:14 PM
+Beginning run at Wed, 08 Jan 2020 03:49:14 PM
+***********
+Processing samples for reference sequence CA04_ferret33_day5
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Calling replicate SNPs with Varscan
+CA04_ferret33_day5_rep2
+-----------
+CA04_ferret33_day5_rep1
+-----------
+***********
+Calling SNPs
+15:49:17	[mpileup] 1 samples in 1 input files
+15:53:02	Got the following sample list: 
+15:53:02	CA04_ferret33_day5_rep1
+15:53:02	Only SNPs will be reported
+15:53:02	Warning: No p-value threshold provided, so p-values will not be calculated
+15:53:02	Min coverage:	100
+15:53:02	Min reads2:	2
+15:53:02	Min var freq:	0.01
+15:53:02	Min avg qual:	30
+15:53:02	P-value thresh:	0.01
+15:53:02	Reading input from CA04_ferret33_day5_rep1.mpileup
+15:54:06	13158 bases in pileup file
+15:54:06	52 variant positions (45 SNP, 7 indel)
+15:54:06	0 were failed by the strand-filter
+15:54:06	45 variant positions reported (45 SNP, 0 indel)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_H1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_N1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:06	Lines   total/split/realigned/skipped:	45/0/0/0
+15:54:06	REF/ALT total/modified/added:  	45/0/0
+15:49:17	[mpileup] 1 samples in 1 input files
+15:53:21	Got the following sample list: 
+15:53:21	CA04_ferret33_day5_rep2
+15:53:21	Only SNPs will be reported
+15:53:21	Warning: No p-value threshold provided, so p-values will not be calculated
+15:53:21	Min coverage:	100
+15:53:21	Min reads2:	2
+15:53:21	Min var freq:	0.01
+15:53:21	Min avg qual:	30
+15:53:21	P-value thresh:	0.01
+15:53:21	Reading input from CA04_ferret33_day5_rep2.mpileup
+15:54:21	13158 bases in pileup file
+15:54:21	58 variant positions (51 SNP, 7 indel)
+15:54:21	1 were failed by the strand-filter
+15:54:21	50 variant positions reported (50 SNP, 0 indel)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_H1' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	[W::vcf_parse] Contig 'A_CALIFORNIA_04_2009_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+15:54:21	Lines   total/split/realigned/skipped:	50/0/0/0
+15:54:21	REF/ALT total/modified/added:  	50/0/0
+['CA04_ferret33_day5_rep2_averaged.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+A_CALIFORNIA_04_2009_PA
+-----------
+A_CALIFORNIA_04_2009_H1
+-----------
+A_CALIFORNIA_04_2009_PB2
+-----------
+A_CALIFORNIA_04_2009_PB1
+-----------
+A_CALIFORNIA_04_2009_NP
+-----------
+A_CALIFORNIA_04_2009_N1
+-----------
+A_CALIFORNIA_04_2009_MP
+-----------
+A_CALIFORNIA_04_2009_NS
+-----------
+***********
+Getting Population Statistics
+-----------
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2
+15:54:24	
+15:54:24	
+15:54:24	################################################################################
+15:54:24	##                                                                            ##
+15:54:24	##                             SNPGenie Initiated!                            ##
+15:54:24	##                                                                            ##
+15:54:24	################################################################################
+15:54:24	
+15:54:24	  ###############################  LICENSE:  #################################
+15:54:24	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:24	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:24	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:24	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:24	  ############################################################################
+15:54:24	
+15:54:24	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2
+15:54:24	
+15:54:24	Reading in FASTA file... COMPLETED.
+15:54:24	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:24	
+15:54:24	
+15:54:24	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:24	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:24	
+15:54:24	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:24	
+15:54:24	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:24	
+15:54:24	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:24	
+15:54:24	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:24	
+15:54:24	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:24	
+15:54:24	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:24	
+15:54:24	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2
+15:54:35	COMPLETED.
+15:54:35	
+15:54:35	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:35	
+15:54:35	
+15:54:35	Performing sliding window for all files, length 4 codons...
+15:54:35	
+15:54:35	
+15:54:35	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2
+15:54:38	
+15:54:38	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2
+15:54:38	
+15:54:38	################################################################################
+15:54:38	##                      SNPGenie completed successfully.                      ##
+15:54:38	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB2 folder.            ##
+15:54:38	################################################################################
+15:54:38	
+15:54:38	
+-----------
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1
+15:54:24	
+15:54:24	
+15:54:24	################################################################################
+15:54:24	##                                                                            ##
+15:54:24	##                             SNPGenie Initiated!                            ##
+15:54:24	##                                                                            ##
+15:54:24	################################################################################
+15:54:24	
+15:54:24	  ###############################  LICENSE:  #################################
+15:54:24	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:24	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:24	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:24	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:24	  ############################################################################
+15:54:24	
+15:54:24	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1
+15:54:24	
+15:54:24	Reading in FASTA file... COMPLETED.
+15:54:24	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:24	
+15:54:24	
+15:54:24	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:24	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:24	
+15:54:24	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:24	
+15:54:24	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:25	
+15:54:25	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:25	
+15:54:25	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:25	
+15:54:25	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:25	
+15:54:25	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:25	
+15:54:25	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:25	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1
+15:54:35	COMPLETED.
+15:54:35	
+15:54:35	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:35	
+15:54:35	
+15:54:35	Performing sliding window for all files, length 4 codons...
+15:54:35	
+15:54:35	
+15:54:35	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1
+15:54:39	
+15:54:39	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1
+15:54:39	
+15:54:39	################################################################################
+15:54:39	##                      SNPGenie completed successfully.                      ##
+15:54:39	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PB1 folder.            ##
+15:54:39	################################################################################
+15:54:39	
+15:54:39	
+-----------
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA
+15:54:24	
+15:54:24	
+15:54:24	################################################################################
+15:54:24	##                                                                            ##
+15:54:24	##                             SNPGenie Initiated!                            ##
+15:54:24	##                                                                            ##
+15:54:24	################################################################################
+15:54:24	
+15:54:24	  ###############################  LICENSE:  #################################
+15:54:24	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:24	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:24	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:24	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:24	  ############################################################################
+15:54:24	
+15:54:24	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA
+15:54:24	
+15:54:24	Reading in FASTA file... COMPLETED.
+15:54:24	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:24	
+15:54:24	
+15:54:24	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:24	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:24	
+15:54:24	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:24	
+15:54:24	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:24	
+15:54:24	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:24	
+15:54:24	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:24	
+15:54:24	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:24	
+15:54:24	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:24	
+15:54:24	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA
+15:54:36	COMPLETED.
+15:54:36	
+15:54:36	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:36	
+15:54:36	
+15:54:36	Performing sliding window for all files, length 4 codons...
+15:54:36	
+15:54:36	
+15:54:36	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA
+15:54:39	
+15:54:39	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA
+15:54:39	
+15:54:39	################################################################################
+15:54:39	##                      SNPGenie completed successfully.                      ##
+15:54:39	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_PA folder.            ##
+15:54:39	################################################################################
+15:54:39	
+15:54:39	
+-----------
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1
+15:54:24	
+15:54:24	
+15:54:24	################################################################################
+15:54:24	##                                                                            ##
+15:54:24	##                             SNPGenie Initiated!                            ##
+15:54:24	##                                                                            ##
+15:54:24	################################################################################
+15:54:24	
+15:54:24	  ###############################  LICENSE:  #################################
+15:54:24	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:24	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:24	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:24	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:24	  ############################################################################
+15:54:24	
+15:54:24	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:24	
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1
+15:54:24	
+15:54:24	Reading in FASTA file... COMPLETED.
+15:54:24	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:24	
+15:54:24	
+15:54:24	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:24	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:24	
+15:54:24	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:24	
+15:54:24	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:24	
+15:54:24	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:24	
+15:54:24	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:24	
+15:54:24	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:24	
+15:54:24	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:24	
+15:54:24	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:24	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1
+15:54:33	COMPLETED.
+15:54:33	
+15:54:33	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:33	
+15:54:33	
+15:54:33	Performing sliding window for all files, length 4 codons...
+15:54:33	
+15:54:33	
+15:54:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1
+15:54:35	
+15:54:35	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1
+15:54:35	
+15:54:35	################################################################################
+15:54:35	##                      SNPGenie completed successfully.                      ##
+15:54:35	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_H1 folder.            ##
+15:54:35	################################################################################
+15:54:35	
+15:54:35	
+-----------
+15:54:37	
+15:54:37	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP
+15:54:37	
+15:54:37	
+15:54:37	################################################################################
+15:54:37	##                                                                            ##
+15:54:37	##                             SNPGenie Initiated!                            ##
+15:54:37	##                                                                            ##
+15:54:37	################################################################################
+15:54:37	
+15:54:37	  ###############################  LICENSE:  #################################
+15:54:37	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:37	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:37	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:37	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:37	  ############################################################################
+15:54:37	
+15:54:37	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:37	
+15:54:37	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP
+15:54:37	
+15:54:37	Reading in FASTA file... COMPLETED.
+15:54:37	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:37	
+15:54:37	
+15:54:37	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:37	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:37	
+15:54:37	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:37	
+15:54:37	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:37	
+15:54:37	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:37	
+15:54:37	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:37	
+15:54:37	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:37	
+15:54:37	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:37	
+15:54:37	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:37	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP
+15:54:46	COMPLETED.
+15:54:46	
+15:54:46	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:46	
+15:54:46	
+15:54:46	Performing sliding window for all files, length 4 codons...
+15:54:46	
+15:54:46	
+15:54:46	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP
+15:54:48	
+15:54:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP
+15:54:48	
+15:54:48	################################################################################
+15:54:48	##                      SNPGenie completed successfully.                      ##
+15:54:48	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NP folder.            ##
+15:54:48	################################################################################
+15:54:48	
+15:54:48	
+-----------
+15:54:41	
+15:54:41	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1
+15:54:41	
+15:54:41	
+15:54:41	################################################################################
+15:54:41	##                                                                            ##
+15:54:41	##                             SNPGenie Initiated!                            ##
+15:54:41	##                                                                            ##
+15:54:41	################################################################################
+15:54:41	
+15:54:41	  ###############################  LICENSE:  #################################
+15:54:41	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:41	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:41	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:41	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:41	  ############################################################################
+15:54:41	
+15:54:41	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:41	
+15:54:41	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1
+15:54:41	
+15:54:41	Reading in FASTA file... COMPLETED.
+15:54:41	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:41	
+15:54:41	
+15:54:41	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:41	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:41	
+15:54:41	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:41	
+15:54:41	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:41	
+15:54:41	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:41	
+15:54:41	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:41	
+15:54:41	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:41	
+15:54:41	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:41	
+15:54:41	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:41	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1
+15:54:48	COMPLETED.
+15:54:48	
+15:54:48	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:48	
+15:54:48	
+15:54:48	Performing sliding window for all files, length 4 codons...
+15:54:48	
+15:54:48	
+15:54:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1
+15:54:50	
+15:54:50	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1
+15:54:50	
+15:54:50	################################################################################
+15:54:50	##                      SNPGenie completed successfully.                      ##
+15:54:50	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_N1 folder.            ##
+15:54:50	################################################################################
+15:54:50	
+15:54:50	
+-----------
+15:54:42	
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:42	
+15:54:42	
+15:54:42	################################################################################
+15:54:42	##                                                                            ##
+15:54:42	##                             SNPGenie Initiated!                            ##
+15:54:42	##                                                                            ##
+15:54:42	################################################################################
+15:54:42	
+15:54:42	  ###############################  LICENSE:  #################################
+15:54:42	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:42	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:42	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:42	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:42	  ############################################################################
+15:54:42	
+15:54:42	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:42	
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:42	
+15:54:42	Reading in FASTA file... COMPLETED.
+15:54:42	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:42	
+15:54:42	
+15:54:42	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:42	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:42	
+15:54:42	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:42	
+15:54:42	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:42	
+15:54:42	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:42	
+15:54:42	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:42	
+15:54:42	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:42	
+15:54:42	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:42	
+15:54:42	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:46	
+15:54:46	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:48	COMPLETED.
+15:54:48	
+15:54:48	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:48	
+15:54:48	
+15:54:48	Performing sliding window for all files, length 4 codons...
+15:54:48	
+15:54:48	
+15:54:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:49	
+15:54:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP
+15:54:49	
+15:54:49	################################################################################
+15:54:49	##                      SNPGenie completed successfully.                      ##
+15:54:49	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_MP folder.            ##
+15:54:49	################################################################################
+15:54:49	
+15:54:49	
+-----------
+15:54:42	
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:42	
+15:54:42	
+15:54:42	################################################################################
+15:54:42	##                                                                            ##
+15:54:42	##                             SNPGenie Initiated!                            ##
+15:54:42	##                                                                            ##
+15:54:42	################################################################################
+15:54:42	
+15:54:42	  ###############################  LICENSE:  #################################
+15:54:42	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+15:54:42	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+15:54:42	  ##     This is free software, and you are welcome to redistribute it      ##
+15:54:42	  ##               under certain conditions; see LICENSE.txt.               ##
+15:54:42	  ############################################################################
+15:54:42	
+15:54:42	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+15:54:42	
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:42	
+15:54:42	Reading in FASTA file... COMPLETED.
+15:54:42	Creating temp_vcf4_CA04_ferret33_day5_rep1.vcf...
+15:54:42	
+15:54:42	
+15:54:42	###########################  CURRENTLY PROCESSING:   ###########################
+15:54:42	temp_vcf4_CA04_ferret33_day5_rep1.vcf... VCF format detected
+15:54:42	
+15:54:42	Converting temp_vcf4_CA04_ferret33_day5_rep1.vcf to SNPGenie format...
+15:54:42	
+15:54:42	In file temp_vcf4_CA04_ferret33_day5_rep1.vcf, the newline type is: Unix (LF, \n)
+15:54:42	
+15:54:42	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+15:54:42	
+15:54:42	Ligating gene segments (computationally, of course!)... COMPLETED.
+15:54:42	
+15:54:42	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+15:54:42	
+15:54:42	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+15:54:42	
+15:54:42	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+15:54:42	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:44	
+15:54:44	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:47	COMPLETED.
+15:54:47	
+15:54:47	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_CA04_ferret33_day5_rep1.vcf COMPLETED.
+15:54:47	
+15:54:47	
+15:54:47	Performing sliding window for all files, length 4 codons...
+15:54:47	
+15:54:47	
+15:54:47	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:48	
+15:54:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS
+15:54:48	
+15:54:48	################################################################################
+15:54:48	##                      SNPGenie completed successfully.                      ##
+15:54:48	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/CA04_ferret33_day5/CA04_ferret33_day5/SNPGenie_output/A_CALIFORNIA_04_2009_NS folder.            ##
+15:54:48	################################################################################
+15:54:48	
+15:54:48	
+***********
+***********
+Sniffles: Finished with a total runtime of 0:05:36.360000.
+
+CA04_ferret33_day5_rep1.bam, CA04_ferret33_day5_rep2.bam was/were not successfully snp called during run.

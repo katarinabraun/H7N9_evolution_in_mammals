@@ -1,0 +1,2 @@
+file	product	N_diffs	S_diffs	N_diffs_vs_ref	S_diffs_vs_ref	N_sites	S_sites	piN	piS	mean_dN_vs_ref	mean_dS_vs_ref	mean_gdiv_polymorphic	mean_N_gdiv	mean_S_gdiv
+temp_vcf4_GD3_ferret10_day3.vcf	HA	0.0216289667471785	0	1.0109330121375	2	1308.00364433738	383.99635566262	1.65358612270041e-05	0	0.000772882412456598	0.00520838276329165	0.00540674069154895	0.0216269627661958	*

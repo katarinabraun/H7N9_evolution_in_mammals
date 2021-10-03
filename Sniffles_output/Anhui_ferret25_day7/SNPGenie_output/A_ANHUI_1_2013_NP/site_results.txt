@@ -1,0 +1,11 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	244	C	C	1	0	244	CAC	0.0318573857269489	0.0318559328430283	Nonsynonymous	Nonsynonymous	21927	0	21572	0	355
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	293	G	G	2	0	292	AGG	0.120300501760706	0.120295710629966	Nonsynonymous	Nonsynonymous	25109	1614	0	23495	0
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	350	G	G	2	0	349	AGG	0.0283398996068701	0.0283388131625684	Nonsynonymous	Nonsynonymous	26085	375	0	25710	0
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	796	C	C	1	0	796	CTG	0.0378004626468783	0.0377989760199602	Synonymous	Synonymous	25427	0	24937	0	490
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	825	C	C	3	0	823	TGC	0.0286722012904346	0.0286710061672095	Synonymous	Synonymous	23991	0	23642	0	349
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	850	G	G	1	0	850	GCA	0.123353853756499	0.123348943759534	Nonsynonymous	Nonsynonymous	25123	1659	0	23464	0
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	978	C	C	3	0	976	AGC	0.0308615170211023	0.0308602765565731	Synonymous	Synonymous	24879	0	24489	0	390
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	1071	G	G	3	0	1069	CAG	0.453499230900522	0.453479338838459	Synonymous	Synonymous	22798	7922	0	14876	0
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	1117	G	G	1	0	1117	GCA	0.461433754896439	0.461411603595258	Nonsynonymous	Nonsynonymous	20831	7522	0	13309	0
+temp_vcf4_Anhui_ferret25_day7_rep1.vcf	NP	1251	C	C	3	0	1249	AAC	0.0768151381452334	0.0768099472317219	Synonymous	Synonymous	14798	0	14206	0	592

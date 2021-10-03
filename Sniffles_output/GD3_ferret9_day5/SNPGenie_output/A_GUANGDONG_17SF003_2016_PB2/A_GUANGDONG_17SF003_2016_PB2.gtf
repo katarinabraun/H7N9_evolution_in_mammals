@@ -1,0 +1,3 @@
+A_GUANGDONG_17SF003_2016_PB2	bowtie2	gene	1	2280	.	+	.	gene_id "PB2";
+A_GUANGDONG_17SF003_2016_PB2	bowtie2	transcript	1	2280	.	+	.	gene_id "PB2"; transcript_id "PB2";
+A_GUANGDONG_17SF003_2016_PB2	bowtie2	CDS	1	2280	.	+	0	gene_id "PB2"; transcript_id "PB2";

@@ -1,0 +1,9 @@
+SNPGenie parameter log.
+
+MINIMUM ALLELE FREQUENCY: 0.01
+SLIDING WINDOW LENGTH: 4
+MULTI-FASTA MODE: Default used; No
+SNP REPORTS: User submitted file: /segmentdir/A_ANHUI_1_2013_H7.vcf
+REFERENCE FASTA FILE: User submitted file: /segmentdir/A_ANHUI_1_2013_H7.fasta
+GTF FILE: User submitted file: /segmentdir/A_ANHUI_1_2013_H7.gtf
+COMPLEMENT MODE: No

@@ -1,0 +1,3 @@
+A_GUANGDONG_17SF003_2016_NP	bowtie2	gene	1	1497	.	+	.	gene_id "NP";
+A_GUANGDONG_17SF003_2016_NP	bowtie2	transcript	1	1497	.	+	.	gene_id "NP"; transcript_id "NP";
+A_GUANGDONG_17SF003_2016_NP	bowtie2	CDS	1	1497	.	+	0	gene_id "NP"; transcript_id "NP";

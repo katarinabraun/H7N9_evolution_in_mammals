@@ -1,0 +1,7 @@
+A_CALIFORNIA_04_2009_NS	bowtie2	gene	1	660	.	+	.	gene_id "NS1";
+A_CALIFORNIA_04_2009_NS	bowtie2	transcript	1	660	.	+	.	gene_id "NS1"; transcript_id "NS1";
+A_CALIFORNIA_04_2009_NS	bowtie2	CDS	1	660	.	+	0	gene_id "NS1"; transcript_id "NS1";
+A_CALIFORNIA_04_2009_NS	bowtie2	gene	1	838	.	+	.	gene_id "NEP";
+A_CALIFORNIA_04_2009_NS	bowtie2	transcript	1	838	.	+	.	gene_id "NEP"; transcript_id "NEP";
+A_CALIFORNIA_04_2009_NS	bowtie2	CDS	1	30	.	+	0	gene_id "NEP"; transcript_id "NEP";
+A_CALIFORNIA_04_2009_NS	bowtie2	CDS	503	838	.	+	0	gene_id "NEP"; transcript_id "NEP";

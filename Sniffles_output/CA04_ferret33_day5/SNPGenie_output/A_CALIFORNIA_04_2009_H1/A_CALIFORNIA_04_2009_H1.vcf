@@ -1,0 +1,38 @@
+##fileformat=VCFv4.1
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=VarScan2
+##INFO=<ID=ADP,Number=1,Type=Integer,Description="Average per-sample depth of bases with Phred score >= 30">
+##INFO=<ID=WT,Number=1,Type=Integer,Description="Number of samples called reference (wild-type)">
+##INFO=<ID=HET,Number=1,Type=Integer,Description="Number of samples called heterozygous-variant">
+##INFO=<ID=HOM,Number=1,Type=Integer,Description="Number of samples called homozygous-variant">
+##INFO=<ID=NC,Number=1,Type=Integer,Description="Number of samples not called">
+##FILTER=<ID=str10,Description="Less than 10% or more than 90% of variant supporting reads on one strand">
+##FILTER=<ID=indelError,Description="Likely artifact due to indel reads at this position">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Raw Read Depth as reported by SAMtools">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Quality Read Depth of bases with Phred score >= 30">
+##FORMAT=<ID=RD,Number=1,Type=Integer,Description="Depth of reference-supporting bases (reads1)">
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description="Depth of variant-supporting bases (reads2)">
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description="Variant allele frequency">
+##FORMAT=<ID=PVAL,Number=1,Type=String,Description="P-value from Fisher's Exact Test">
+##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description="Average quality of reference-supporting bases (qual1)">
+##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description="Average quality of variant-supporting bases (qual2)">
+##FORMAT=<ID=RDF,Number=1,Type=Integer,Description="Depth of reference-supporting bases on forward strand (reads1plus)">
+##FORMAT=<ID=RDR,Number=1,Type=Integer,Description="Depth of reference-supporting bases on reverse strand (reads1minus)">
+##FORMAT=<ID=ADF,Number=1,Type=Integer,Description="Depth of variant-supporting bases on forward strand (reads2plus)">
+##FORMAT=<ID=ADR,Number=1,Type=Integer,Description="Depth of variant-supporting bases on reverse strand (reads2minus)">
+##bcftools_normVersion=1.9+htslib-1.9
+##bcftools_normCommand=norm -c sw -m - -f _ref_CA04_ferret33_day5.fasta -o CA04_ferret33_day5_rep1.vcf CA04_ferret33_day5_rep1_temp.vcf; Date=Wed Jan  8 21:54:06 2020
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	CA04_ferret33_day5_rep1
+A_CALIFORNIA_04_2009_H1	432	.	C	A	.	PASS	ADP=10639;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:10719:10639:5544:5082:47.77%:0E0:52:52:3541:2003:3098:1984
+A_CALIFORNIA_04_2009_H1	436	.	A	G	.	PASS	ADP=10402;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:10473:10402:10181:220:2.11%:1.9542E-53:52:47:6460:3721:104:116
+A_CALIFORNIA_04_2009_H1	469	.	G	A	.	PASS	ADP=9163;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:9254:9163:9026:136:1.48%:9.3567E-31:52:52:5962:3064:91:45
+A_CALIFORNIA_04_2009_H1	515	.	G	A	.	PASS	ADP=8702;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:8766:8702:8512:183:2.1%:5.2006E-45:51:53:4959:3553:123:60
+A_CALIFORNIA_04_2009_H1	598	.	T	C	.	PASS	ADP=11466;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:11554:11466:7333:4129:36.02%:0E0:47:46:4580:2753:3072:1057
+A_CALIFORNIA_04_2009_H1	622	.	C	A	.	PASS	ADP=11027;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:11117:11027:9347:1663:15.08%:0E0:49:48:7426:1921:1180:483
+A_CALIFORNIA_04_2009_H1	635	.	C	A	.	PASS	ADP=11243;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:11311:11243:11104:134:1.19%:1.7626E-28:50:45:8971:2133:86:48
+A_CALIFORNIA_04_2009_H1	640	.	A	G	.	PASS	ADP=11505;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:11550:11505:11032:471:4.09%:5.5E-126:50:49:9001:2031:355:116
+A_CALIFORNIA_04_2009_H1	1071	.	G	T	.	PASS	ADP=8544;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:255:8569:8544:8375:167:1.95%:1.9332E-40:51:52:3689:4686:85:82
+A_CALIFORNIA_04_2009_H1	1584	.	C	T	.	PASS	ADP=4778;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0_1:185:4800:4778:4698:78:1.63%:2.8613E-19:58:58:2817:1881:49:29

@@ -1,0 +1,678 @@
+***********
+Beginning run at Fri, 02 Aug 2019 01:39:42 PM
+Beginning run at Fri, 02 Aug 2019 01:39:42 PM
+***********
+Processing samples for reference sequence GD3_ferret5_day5
+***********
+Started quality trimming
+GD3_ferret5_day5_rep2
+-----------
+GD3_ferret5_day5_rep1
+-----------
+***********
+Trimmomatic
+***********
+13:39:43	TrimmomaticPE: Started with arguments:
+13:39:43	 GD3_ferret5_day5_rep1_R1.fastq.gz GD3_ferret5_day5_rep1_R2.fastq.gz -baseout /output/GD3_ferret5_day5_rep1_trimmed.fastq.gz SLIDINGWINDOW:5:30 MINLEN:100
+13:39:43	Multiple cores found: Using 2 threads
+13:39:43	Using templated Output files: /output/GD3_ferret5_day5_rep1_trimmed_1P.fastq.gz /output/GD3_ferret5_day5_rep1_trimmed_1U.fastq.gz /output/GD3_ferret5_day5_rep1_trimmed_2P.fastq.gz /output/GD3_ferret5_day5_rep1_trimmed_2U.fastq.gz
+13:39:44	Quality encoding detected as phred33
+13:40:15	Input Read Pairs: 149485 Both Surviving: 127090 (85.02%) Forward Only Surviving: 9260 (6.19%) Reverse Only Surviving: 1620 (1.08%) Dropped: 11515 (7.70%)
+13:40:15	TrimmomaticPE: Completed successfully
+13:39:43	TrimmomaticPE: Started with arguments:
+13:39:43	 GD3_ferret5_day5_rep2_R1.fastq.gz GD3_ferret5_day5_rep2_R2.fastq.gz -baseout /output/GD3_ferret5_day5_rep2_trimmed.fastq.gz SLIDINGWINDOW:5:30 MINLEN:100
+13:39:43	Multiple cores found: Using 2 threads
+13:39:43	Using templated Output files: /output/GD3_ferret5_day5_rep2_trimmed_1P.fastq.gz /output/GD3_ferret5_day5_rep2_trimmed_1U.fastq.gz /output/GD3_ferret5_day5_rep2_trimmed_2P.fastq.gz /output/GD3_ferret5_day5_rep2_trimmed_2U.fastq.gz
+13:39:44	Quality encoding detected as phred33
+13:41:53	Input Read Pairs: 909572 Both Surviving: 528520 (58.11%) Forward Only Surviving: 129846 (14.28%) Reverse Only Surviving: 25914 (2.85%) Dropped: 225292 (24.77%)
+13:41:53	TrimmomaticPE: Completed successfully
+***********
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Beginning initial mapping
+GD3_ferret5_day5_rep1
+-----------
+GD3_ferret5_day5_rep2
+-----------
+***********
+Mapping
+-----------
+-----------
+***********
+***********
+Determining Average Coverage
+***********
+GD3_ferret5_day5_rep1
+-----------
+14:04:19	java -ea -Xmx1004m -cp /tools/bbmap/current/ jgi.CoveragePileup in=GD3_ferret5_day5_rep1.tmp.sam out=GD3_ferret5_day5_rep1_coverage.tsv ref=/reference/GD3_ferret5_day5.fasta 32bit=t
+14:04:20	Executing jgi.CoveragePileup [in=GD3_ferret5_day5_rep1.tmp.sam, out=GD3_ferret5_day5_rep1_coverage.tsv, ref=/reference/GD3_ferret5_day5.fasta, 32bit=t]
+14:04:20	
+14:04:20	Found samtools 1.9
+14:04:20	Warning - SAM header did not include A_GUANGDONG_17SF003_2016_PB2
+14:04:20	Absent scaffolds will be added; further warnings will be suppressed.
+14:04:22	Reads:                               	252910
+14:04:22	Mapped reads:                        	252910
+14:04:22	Mapped bases:                        	59991989
+14:04:22	Ref scaffolds:                       	8
+14:04:22	Ref bases:                           	13115
+14:04:22	
+14:04:22	Percent mapped:                      	100.000
+14:04:22	Percent proper pairs:                	75.496
+14:04:22	Average coverage:                    	4574.303
+14:04:22	Standard deviation:                    	2254.631
+14:04:22	Percent scaffolds with any coverage: 	100.00
+14:04:22	Percent of reference bases covered:  	100.00
+14:04:22	
+14:04:22	Time: 	2.363 seconds.
+***********
+***********
+Determining Average Coverage
+***********
+GD3_ferret5_day5_rep2
+-----------
+14:05:42	java -ea -Xmx1002m -cp /tools/bbmap/current/ jgi.CoveragePileup in=GD3_ferret5_day5_rep2.tmp.sam out=GD3_ferret5_day5_rep2_coverage.tsv ref=/reference/GD3_ferret5_day5.fasta 32bit=t
+14:05:42	Executing jgi.CoveragePileup [in=GD3_ferret5_day5_rep2.tmp.sam, out=GD3_ferret5_day5_rep2_coverage.tsv, ref=/reference/GD3_ferret5_day5.fasta, 32bit=t]
+14:05:42	
+14:05:42	Found samtools 1.9
+14:05:42	Warning - SAM header did not include A_GUANGDONG_17SF003_2016_PB2
+14:05:42	Absent scaffolds will be added; further warnings will be suppressed.
+14:05:48	Reads:                               	1048227
+14:05:48	Mapped reads:                        	1048227
+14:05:48	Mapped bases:                        	231925109
+14:05:48	Ref scaffolds:                       	8
+14:05:48	Ref bases:                           	13115
+14:05:48	
+14:05:48	Percent mapped:                      	100.000
+14:05:48	Percent proper pairs:                	93.740
+14:05:48	Average coverage:                    	17683.958
+14:05:48	Standard deviation:                    	12604.321
+14:05:48	Percent scaffolds with any coverage: 	100.00
+14:05:48	Percent of reference bases covered:  	100.00
+14:05:48	
+14:05:48	Time: 	6.120 seconds.
+***********
+***********
+Downsampling with seqtk to normalize coverage
+***********
+Downsampling with seqtk to normalize coverage
+GD3_ferret5_day5_rep1
+-----------
+14:06:03	[M::bam2fq_mainloop] discarded 0 singletons
+14:06:03	[M::bam2fq_mainloop] processed 252910 reads
+GD3_ferret5_day5_rep2
+-----------
+14:07:07	[M::bam2fq_mainloop] discarded 0 singletons
+14:07:07	[M::bam2fq_mainloop] processed 1048227 reads
+***********
+GD3_ferret5_day5_rep1
+-----------
+GD3_ferret5_day5_rep2
+-----------
+***********
+Mapping
+-----------
+-----------
+***********
+***********
+Generating consensus sequence
+***********
+Generating Consensus
+-----------
+14:14:45	[mpileup] 1 samples in 1 input files
+14:15:22	Warning: No p-value threshold provided, so p-values will not be calculated
+14:15:22	Min coverage:	100
+14:15:22	Min reads2:	2
+14:15:22	Min var freq:	0.5
+14:15:22	Min avg qual:	30
+14:15:22	P-value thresh:	0.01
+14:15:22	Reading input from GD3_ferret5_day5_rep1.pileup
+14:16:17	13115 bases in pileup file
+14:16:17	7 variant positions (7 SNP, 0 indel)
+14:16:17	0 were failed by the strand-filter
+14:16:17	7 variant positions reported (7 SNP, 0 indel)
+-----------
+14:14:45	[mpileup] 1 samples in 1 input files
+14:15:40	Warning: No p-value threshold provided, so p-values will not be calculated
+14:15:40	Min coverage:	100
+14:15:40	Min reads2:	2
+14:15:40	Min var freq:	0.5
+14:15:40	Min avg qual:	30
+14:15:40	P-value thresh:	0.01
+14:15:40	Reading input from GD3_ferret5_day5_rep2.pileup
+14:16:38	13115 bases in pileup file
+14:16:38	7 variant positions (7 SNP, 0 indel)
+14:16:38	0 were failed by the strand-filter
+14:16:38	7 variant positions reported (7 SNP, 0 indel)
+***********
+***********
+Creating consensus Fasta
+-----------
+14:16:40	Note: the --sample option not given, applying all records regardless of the genotype
+-----------
+14:16:40	Note: the --sample option not given, applying all records regardless of the genotype
+***********
+***********
+Calling replicate SNPs with Varscan
+/infile/GD3_ferret5_day5_rep1
+-----------
+/infile/GD3_ferret5_day5_rep2
+-----------
+***********
+Calling SNPs
+14:16:42	[mpileup] 1 samples in 1 input files
+14:17:24	Got the following sample list: 
+14:17:24	GD3_ferret5_day5_rep1
+14:17:24	Only SNPs will be reported
+14:17:24	Warning: No p-value threshold provided, so p-values will not be calculated
+14:17:24	Min coverage:	100
+14:17:24	Min reads2:	2
+14:17:24	Min var freq:	0.01
+14:17:24	Min avg qual:	30
+14:17:24	P-value thresh:	0.01
+14:17:24	Reading input from GD3_ferret5_day5_rep1.mpileup
+14:18:02	13115 bases in pileup file
+14:18:02	83 variant positions (80 SNP, 3 indel)
+14:18:02	0 were failed by the strand-filter
+14:18:02	80 variant positions reported (80 SNP, 0 indel)
+14:16:42	[mpileup] 1 samples in 1 input files
+14:17:45	Got the following sample list: 
+14:17:45	GD3_ferret5_day5_rep2
+14:17:45	Only SNPs will be reported
+14:17:45	Warning: No p-value threshold provided, so p-values will not be calculated
+14:17:45	Min coverage:	100
+14:17:45	Min reads2:	2
+14:17:45	Min var freq:	0.01
+14:17:45	Min avg qual:	30
+14:17:45	P-value thresh:	0.01
+14:17:45	Reading input from GD3_ferret5_day5_rep2.mpileup
+14:18:18	13115 bases in pileup file
+14:18:18	108 variant positions (108 SNP, 0 indel)
+14:18:18	0 were failed by the strand-filter
+14:18:18	108 variant positions reported (108 SNP, 0 indel)
+['GD3_ferret5_day5_averaged.vcf']-----------
+
+Combined all vcf files into master vcf file all_snps.vcf
+-----------
+***********
+***********
+Annotating SNPs
+***********
+Performing population analysis with SNPGenie
+A_GUANGDONG_17SF003_2016_PB1
+-----------
+A_GUANGDONG_17SF003_2016_H7
+-----------
+A_GUANGDONG_17SF003_2016_PB2
+-----------
+A_GUANGDONG_17SF003_2016_PA
+-----------
+A_GUANGDONG_17SF003_2016_NP
+-----------
+A_GUANGDONG_17SF003_2016_N9
+-----------
+A_GUANGDONG_17SF003_2016_MP
+-----------
+A_GUANGDONG_17SF003_2016_NS
+-----------
+***********
+Getting Population Statistics
+-----------
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	...A_GUANGDONG_17SF003_2016_PB2.fastaA_GUANGDONG_17SF003_2016_PB2.gtfA_GUANGDONG_17SF003_2016_PB2.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:21	vcf does not exist at /segmentdir
+14:18:21	
+14:18:21	################################################################################
+14:18:21	##                                                                            ##
+14:18:21	##                             SNPGenie Initiated!                            ##
+14:18:21	##                                                                            ##
+14:18:21	################################################################################
+14:18:21	
+14:18:21	  ###############################  LICENSE:  #################################
+14:18:21	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:21	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:21	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:21	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:21	  ############################################################################
+14:18:21	
+14:18:21	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	
+14:18:21	Reading in FASTA file... COMPLETED.
+14:18:21	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:21	
+14:18:21	
+14:18:21	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:21	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:21	
+14:18:21	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:21	
+14:18:21	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:21	
+14:18:21	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:21	
+14:18:21	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:21	
+14:18:21	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:21	
+14:18:21	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:21	
+14:18:21	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:21	output_folder is /segmentdir
+14:18:35	COMPLETED.
+14:18:35	
+14:18:35	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:35	
+14:18:35	output_folder is /segmentdir
+14:18:35	
+14:18:35	################################################################################
+14:18:35	##                      SNPGenie completed successfully.                      ##
+14:18:35	##             Please find results in the /segmentdir folder.            ##
+14:18:35	################################################################################
+14:18:35	
+14:18:35	
+-----------
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	...A_GUANGDONG_17SF003_2016_PB1.fastaA_GUANGDONG_17SF003_2016_PB1.gtfA_GUANGDONG_17SF003_2016_PB1.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:21	vcf does not exist at /segmentdir
+14:18:21	
+14:18:21	################################################################################
+14:18:21	##                                                                            ##
+14:18:21	##                             SNPGenie Initiated!                            ##
+14:18:21	##                                                                            ##
+14:18:21	################################################################################
+14:18:21	
+14:18:21	  ###############################  LICENSE:  #################################
+14:18:21	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:21	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:21	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:21	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:21	  ############################################################################
+14:18:21	
+14:18:21	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	
+14:18:21	Reading in FASTA file... COMPLETED.
+14:18:21	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:21	
+14:18:21	
+14:18:21	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:21	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:21	
+14:18:21	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:21	
+14:18:21	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:21	
+14:18:21	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:21	
+14:18:21	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:21	
+14:18:21	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:21	
+14:18:21	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:21	
+14:18:21	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:21	output_folder is /segmentdir
+14:18:36	COMPLETED.
+14:18:36	
+14:18:36	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:36	
+14:18:36	output_folder is /segmentdir
+14:18:36	
+14:18:36	################################################################################
+14:18:36	##                      SNPGenie completed successfully.                      ##
+14:18:36	##             Please find results in the /segmentdir folder.            ##
+14:18:36	################################################################################
+14:18:36	
+14:18:36	
+-----------
+14:18:20	
+14:18:20	output_folder is /segmentdir
+14:18:21	...A_GUANGDONG_17SF003_2016_PA.fastaA_GUANGDONG_17SF003_2016_PA.gtfA_GUANGDONG_17SF003_2016_PA.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:21	vcf does not exist at /segmentdir
+14:18:21	
+14:18:21	################################################################################
+14:18:21	##                                                                            ##
+14:18:21	##                             SNPGenie Initiated!                            ##
+14:18:21	##                                                                            ##
+14:18:21	################################################################################
+14:18:21	
+14:18:21	  ###############################  LICENSE:  #################################
+14:18:21	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:21	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:21	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:21	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:21	  ############################################################################
+14:18:21	
+14:18:21	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	
+14:18:21	Reading in FASTA file... COMPLETED.
+14:18:21	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:21	
+14:18:21	
+14:18:21	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:21	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:21	
+14:18:21	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:21	
+14:18:21	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:21	
+14:18:21	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:21	
+14:18:21	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:21	
+14:18:21	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:21	
+14:18:21	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:21	
+14:18:21	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:21	output_folder is /segmentdir
+14:18:34	COMPLETED.
+14:18:34	
+14:18:34	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:34	
+14:18:34	output_folder is /segmentdir
+14:18:34	
+14:18:34	################################################################################
+14:18:34	##                      SNPGenie completed successfully.                      ##
+14:18:34	##             Please find results in the /segmentdir folder.            ##
+14:18:34	################################################################################
+14:18:34	
+14:18:34	
+-----------
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	...A_GUANGDONG_17SF003_2016_H7.fastaA_GUANGDONG_17SF003_2016_H7.gtfA_GUANGDONG_17SF003_2016_H7.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:21	vcf does not exist at /segmentdir
+14:18:21	
+14:18:21	################################################################################
+14:18:21	##                                                                            ##
+14:18:21	##                             SNPGenie Initiated!                            ##
+14:18:21	##                                                                            ##
+14:18:21	################################################################################
+14:18:21	
+14:18:21	  ###############################  LICENSE:  #################################
+14:18:21	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:21	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:21	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:21	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:21	  ############################################################################
+14:18:21	
+14:18:21	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:21	
+14:18:21	output_folder is /segmentdir
+14:18:21	
+14:18:21	Reading in FASTA file... COMPLETED.
+14:18:21	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:21	
+14:18:21	
+14:18:21	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:21	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:21	
+14:18:21	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:21	
+14:18:21	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:21	
+14:18:21	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:21	
+14:18:21	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:21	
+14:18:21	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:21	
+14:18:21	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:21	
+14:18:21	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:21	output_folder is /segmentdir
+14:18:31	COMPLETED.
+14:18:31	
+14:18:31	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:31	
+14:18:31	output_folder is /segmentdir
+14:18:31	
+14:18:31	################################################################################
+14:18:31	##                      SNPGenie completed successfully.                      ##
+14:18:31	##             Please find results in the /segmentdir folder.            ##
+14:18:31	################################################################################
+14:18:31	
+14:18:31	
+-----------
+14:18:34	
+14:18:34	output_folder is /segmentdir
+14:18:34	...A_GUANGDONG_17SF003_2016_NP.fastaA_GUANGDONG_17SF003_2016_NP.gtfA_GUANGDONG_17SF003_2016_NP.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:34	vcf does not exist at /segmentdir
+14:18:34	
+14:18:34	################################################################################
+14:18:34	##                                                                            ##
+14:18:34	##                             SNPGenie Initiated!                            ##
+14:18:34	##                                                                            ##
+14:18:34	################################################################################
+14:18:34	
+14:18:34	  ###############################  LICENSE:  #################################
+14:18:34	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:34	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:34	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:34	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:34	  ############################################################################
+14:18:34	
+14:18:34	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:34	
+14:18:34	output_folder is /segmentdir
+14:18:34	
+14:18:34	Reading in FASTA file... COMPLETED.
+14:18:34	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:34	
+14:18:34	
+14:18:34	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:34	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:34	
+14:18:34	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:34	
+14:18:34	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:34	
+14:18:34	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:34	
+14:18:34	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:34	
+14:18:34	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:34	
+14:18:34	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:34	
+14:18:34	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:34	output_folder is /segmentdir
+14:18:43	COMPLETED.
+14:18:43	
+14:18:43	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:43	
+14:18:43	output_folder is /segmentdir
+14:18:43	
+14:18:43	################################################################################
+14:18:43	##                      SNPGenie completed successfully.                      ##
+14:18:43	##             Please find results in the /segmentdir folder.            ##
+14:18:43	################################################################################
+14:18:43	
+14:18:43	
+-----------
+14:18:37	
+14:18:37	output_folder is /segmentdir
+14:18:37	...A_GUANGDONG_17SF003_2016_N9.fastaA_GUANGDONG_17SF003_2016_N9.gtfA_GUANGDONG_17SF003_2016_N9.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:37	vcf does not exist at /segmentdir
+14:18:37	
+14:18:37	################################################################################
+14:18:37	##                                                                            ##
+14:18:37	##                             SNPGenie Initiated!                            ##
+14:18:37	##                                                                            ##
+14:18:37	################################################################################
+14:18:37	
+14:18:37	  ###############################  LICENSE:  #################################
+14:18:37	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:37	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:37	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:37	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:37	  ############################################################################
+14:18:37	
+14:18:37	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:37	
+14:18:37	output_folder is /segmentdir
+14:18:37	
+14:18:37	Reading in FASTA file... COMPLETED.
+14:18:37	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:37	
+14:18:37	
+14:18:37	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:37	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:37	
+14:18:37	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:37	
+14:18:37	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:37	
+14:18:37	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:37	
+14:18:37	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:37	
+14:18:37	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:37	
+14:18:37	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:37	
+14:18:37	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:37	output_folder is /segmentdir
+14:18:45	COMPLETED.
+14:18:45	
+14:18:45	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:45	
+14:18:45	output_folder is /segmentdir
+14:18:46	
+14:18:46	################################################################################
+14:18:46	##                      SNPGenie completed successfully.                      ##
+14:18:46	##             Please find results in the /segmentdir folder.            ##
+14:18:46	################################################################################
+14:18:46	
+14:18:46	
+-----------
+14:18:38	
+14:18:38	output_folder is /segmentdir
+14:18:38	...A_GUANGDONG_17SF003_2016_MP.fastaA_GUANGDONG_17SF003_2016_MP.gtfA_GUANGDONG_17SF003_2016_MP.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:38	vcf does not exist at /segmentdir
+14:18:38	
+14:18:38	################################################################################
+14:18:38	##                                                                            ##
+14:18:38	##                             SNPGenie Initiated!                            ##
+14:18:38	##                                                                            ##
+14:18:38	################################################################################
+14:18:38	
+14:18:38	  ###############################  LICENSE:  #################################
+14:18:38	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:38	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:38	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:38	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:38	  ############################################################################
+14:18:38	
+14:18:38	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:38	
+14:18:38	output_folder is /segmentdir
+14:18:38	
+14:18:38	Reading in FASTA file... COMPLETED.
+14:18:38	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:38	
+14:18:38	
+14:18:38	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:38	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:38	
+14:18:38	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:38	
+14:18:38	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:38	
+14:18:38	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:38	
+14:18:38	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:38	
+14:18:38	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:38	
+14:18:38	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:38	
+14:18:38	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:38	output_folder is /segmentdir
+14:18:42	
+14:18:42	output_folder is /segmentdir
+14:18:44	COMPLETED.
+14:18:44	
+14:18:44	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:44	
+14:18:44	output_folder is /segmentdir
+14:18:44	
+14:18:44	################################################################################
+14:18:44	##                      SNPGenie completed successfully.                      ##
+14:18:44	##             Please find results in the /segmentdir folder.            ##
+14:18:44	################################################################################
+14:18:44	
+14:18:44	
+-----------
+14:18:39	
+14:18:39	output_folder is /segmentdir
+14:18:39	...A_GUANGDONG_17SF003_2016_NS.fastaA_GUANGDONG_17SF003_2016_NS.gtfA_GUANGDONG_17SF003_2016_NS.vcfcodon_results.txtpopulation_summary.txtproduct_results.txtsite_results.txtsnpgenie.plSNPGenie_LOG.txtSNPGenie_parameters.txt
+14:18:39	vcf exists!
+14:18:39	
+14:18:39	
+14:18:39	################################################################################
+14:18:39	##                                                                            ##
+14:18:39	##                             SNPGenie Initiated!                            ##
+14:18:39	##                                                                            ##
+14:18:39	################################################################################
+14:18:39	
+14:18:39	  ###############################  LICENSE:  #################################
+14:18:39	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+14:18:39	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+14:18:39	  ##     This is free software, and you are welcome to redistribute it      ##
+14:18:39	  ##               under certain conditions; see LICENSE.txt.               ##
+14:18:39	  ############################################################################
+14:18:39	
+14:18:39	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+14:18:39	
+14:18:39	output_folder is /segmentdir
+14:18:39	
+14:18:39	Reading in FASTA file... COMPLETED.
+14:18:39	Creating temp_vcf4_GD3_ferret5_day5.vcf...
+14:18:39	
+14:18:39	
+14:18:39	###########################  CURRENTLY PROCESSING:   ###########################
+14:18:39	temp_vcf4_GD3_ferret5_day5.vcf... VCF format detected
+14:18:39	
+14:18:39	Converting temp_vcf4_GD3_ferret5_day5.vcf to SNPGenie format...
+14:18:39	
+14:18:39	In file temp_vcf4_GD3_ferret5_day5.vcf, the newline type is: Unix (LF, \n)
+14:18:39	
+14:18:39	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+14:18:39	
+14:18:39	Ligating gene segments (computationally, of course!)... COMPLETED.
+14:18:39	
+14:18:39	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+14:18:39	
+14:18:39	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+14:18:39	
+14:18:39	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+14:18:39	output_folder is /segmentdir
+14:18:41	
+14:18:41	output_folder is /segmentdir
+14:18:45	COMPLETED.
+14:18:45	
+14:18:45	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret5_day5.vcf COMPLETED.
+14:18:45	
+14:18:45	output_folder is /segmentdir
+14:18:45	
+14:18:45	################################################################################
+14:18:45	##                      SNPGenie completed successfully.                      ##
+14:18:45	##             Please find results in the /segmentdir folder.            ##
+14:18:45	################################################################################
+14:18:45	
+14:18:45	
+***********
+***********
+Sniffles: Finished with a total runtime of 0:39:04.110000.

@@ -1,0 +1,3 @@
+A_CALIFORNIA_04_2009_H1	bowtie2	gene	1	1701	.	+	.	gene_id "HA";
+A_CALIFORNIA_04_2009_H1	bowtie2	transcript	1	1701	.	+	.	gene_id "HA"; transcript_id "HA";
+A_CALIFORNIA_04_2009_H1	bowtie2	CDS	1	1701	.	+	0	gene_id "HA"; transcript_id "HA";

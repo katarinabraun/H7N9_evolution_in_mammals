@@ -1,0 +1,2 @@
+file	sites	sites_coding	sites_noncoding	pi	pi_coding	pi_noncoding	N_sites	S_sites	piN	piS	mean_dN_vs_ref	mean_dS_vs_ref	mean_gdiv_polymorphic	mean_N_gdiv	mean_S_gdiv	mean_gdiv	sites_polymorphic	mean_gdiv_coding_poly	sites_coding_poly	mean_gdiv_noncoding_poly	sites_noncoding_poly
+temp_vcf4_GD3_ferret1_day7_rep1.vcf	1398	1398	0	5.37089533129596e-05	5.37089533129596e-05	*	1073.52594033722	321.474059662775	6.99425266872743e-05	0	3.62455199027171e-05	0	0.0747929567442354	0.0747929567442354	*	5.34999690588236e-05	1	0.0747929567442354	1	*	0

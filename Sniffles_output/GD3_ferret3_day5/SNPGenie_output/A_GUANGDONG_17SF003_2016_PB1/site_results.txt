@@ -1,0 +1,15 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	270	A	A	3	0	268	GAA	0.0552419318142119	0.0552376990403391	Synonymous	Synonymous	13051	12680	0	371	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	783	C	C	3	0	781	AGC	0.0517386884637085	0.0517347602359002	Synonymous	Synonymous	13171	0	12821	0	350
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	861	G	G	3	0	859	AGG	0.251560022944499	0.251539675130623	Synonymous	Synonymous	12363	1824	0	10539	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1380	G	G	3	0	1378	CAG	0.0537279359776163	0.0537233122309746	Synonymous	Synonymous	11620	321	0	11299	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1390	G	G	1	0	1390	GAT	0.0354034326878742	0.0354003498393294	Nonsynonymous	Nonsynonymous	11484	207	0	11277	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1398	C	C	3	0	1396	TTC	0.0570060592820214	0.0570013174704025	Synonymous	Synonymous	12022	0	11669	0	353
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1494	C	C	3	0	1492	CGC	0.121844407890088	0.121832557626726	Synonymous	Synonymous	10282	0	9612	0	670
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1593	G	G	3	0	1591	AAG	0.0260589369514583	0.0260556913496459	Synonymous	Synonymous	8029	106	0	7923	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1635	G	G	3	0	1633	CAG	0.0706196162219908	0.070610902054145	Synonymous	Synonymous	8104	297	0	7807	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1688	G	G	2	0	1687	AGG	0.129161617591107	0.12914948973969	Nonsynonymous	Nonsynonymous	10650	739	0	9911	0
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1697	C	C	2	0	1696	ACA	0.0502891820354646	0.0502844279059471	Nonsynonymous	Nonsynonymous	10578	0	10305	0	273
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1735	C	C	1	0	1735	CTG	0.0680510557864403	0.0680450858719051	Synonymous	Synonymous	11399	0	10997	0	402
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	1826	T	T	2	0	1825	GTC	0.0525170297303691	0.0525129101014288	Nonsynonymous	Nonsynonymous	12748	0	344	0	12404
+temp_vcf4_GD3_ferret3_day5.vcf	PB1	2037	A	A	3	0	2035	CAA	0.0906681287589793	0.0906588485001503	Synonymous	Synonymous	9770	9305	0	465	0

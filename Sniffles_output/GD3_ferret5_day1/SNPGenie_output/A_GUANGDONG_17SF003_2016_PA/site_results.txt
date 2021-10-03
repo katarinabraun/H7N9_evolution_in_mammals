@@ -1,0 +1,17 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret5_day1.vcf	PA	417	A	A	3	0	415	AAA	0.0548017567748956	0.05479375184402	Synonymous	Synonymous	6846	6653	0	193	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	426	G	G	3	0	424	AAG	0.113239484021255	0.113223980258383	Synonymous	Synonymous	7304	440	0	6864	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	555	G	G	3	0	553	AGG	0.187349457871582	0.187332083350774	Synonymous	Synonymous	10783	1128	0	9655	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	811	C	C	1	0	811	CCT	0.192740298662956	0.192724119673729	Nonsynonymous	Nonsynonymous	11913	0	10626	0	1287
+temp_vcf4_GD3_ferret5_day1.vcf	PA	862	C	C	1	0	862	CTG	0.484205137148222	0.484167112557587	Synonymous	Synonymous	12734	0	7500	0	5234
+temp_vcf4_GD3_ferret5_day1.vcf	PA	930	C	C	3	0	928	TGC	0.218954420485305	0.218936289115606	Synonymous	Synonymous	12076	0	10565	0	1511
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1024	C	C	1	0	1024	CTA	0.0736590087746813	0.0736535424289466	Synonymous	Synonymous	13475	0	12959	0	516
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1070	C	C	2	0	1069	ACA	0.179394959721842	0.179382375017547	Nonsynonymous	Nonsynonymous	14255	0	12835	0	1420
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1076	A	A	2	0	1075	AAC	0.49018001876603	0.490144799624	Nonsynonymous	Nonsynonymous	13918	7936	0	5982	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1552	G	G	1	0	1552	GTA	0.0742400057354806	0.0742297331457844	Nonsynonymous	Nonsynonymous	7227	279	0	6948	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1602	G	G	3	0	1600	CCG	0.207332322406109	0.207305084844048	Synonymous	Synonymous	7612	894	0	6718	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1671	G	G	3	0	1669	GTG	0.0625813928092834	0.0625738145345427	Synonymous	Synonymous	8258	267	0	7991	0
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1818	C	C	3	0	1816	GAC	0.0251892559336968	0.0251860746687391	Synonymous	Synonymous	7918	0	7817	0	101
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1842	C	C	3	0	1840	AAC	0.189791277591554	0.189767004503232	Synonymous	Synonymous	7819	0	6989	0	830
+temp_vcf4_GD3_ferret5_day1.vcf	PA	1917	C	C	3	0	1915	ACC	0.0704463856555583	0.0704381318318144	Synonymous	Synonymous	8535	0	8223	0	312
+temp_vcf4_GD3_ferret5_day1.vcf	PA	2014	C	C	1	0	2014	CTC	0.218256304496337	0.218232206417006	Nonsynonymous	Nonsynonymous	9057	0	7928	0	1129

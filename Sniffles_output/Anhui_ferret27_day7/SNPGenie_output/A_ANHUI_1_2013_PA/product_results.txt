@@ -1,0 +1,2 @@
+file	product	N_diffs	S_diffs	N_diffs_vs_ref	S_diffs_vs_ref	N_sites	S_sites	piN	piS	mean_dN_vs_ref	mean_dS_vs_ref	mean_gdiv_polymorphic	mean_N_gdiv	mean_S_gdiv
+temp_vcf4_Anhui_ferret27_day7.vcf	PA	0.418191301663323	0	0.297656394168666	0	1678.83333333334	469.166666666665	0.000249096377442662	0	0.000177299549787748	0	0.418114130358347	0.418114130358347	*

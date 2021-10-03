@@ -1,0 +1,16 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_ferret5_day5.vcf	NEP	537	G	G	2	1	536	AGA	0.0662496663137121	0.066247554434008	Nonsynonymous	Nonsynonymous	31370	1076	0	30294	0
+temp_vcf4_GD3_ferret5_day5.vcf	NEP	540	C	C	2	1	539	TCC	0.0246618213988959	0.0246610338335449	Nonsynonymous	Nonsynonymous	31314	0	30923	0	391
+temp_vcf4_GD3_ferret5_day5.vcf	NEP	609	G	G	2	1	608	GGA	0.204339698266816	0.204331708132372	Nonsynonymous	Nonsynonymous	25574	2954	0	22620	0
+temp_vcf4_GD3_ferret5_day5.vcf	NEP	628	G	G	3	1	626	ATG	0.0401579020000935	0.0401561468470339	Nonsynonymous	Nonsynonymous	22880	469	0	22411	0
+temp_vcf4_GD3_ferret5_day5.vcf	NEP	635	C	C	1	1	635	CTC	0.291757002331651	0.291743470630787	Nonsynonymous	Nonsynonymous	21561	0	17738	0	3823
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	253	C	C	1	0	253	CCA	0.194396598239796	0.194389924824134	Nonsynonymous	Nonsynonymous	29130	0	25952	0	3178
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	301	G	G	1	0	301	GAT	0.0219679364255408	0.0219671902573935	Nonsynonymous	Nonsynonymous	29441	327	0	29114	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	353	G	G	2	0	352	AGA	0.196103513190935	0.196097691849967	Nonsynonymous	Nonsynonymous	33687	3712	0	29975	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	380	A	A	2	0	379	AAC	0.0272221646076275	0.0272213088069231	Nonsynonymous	Nonsynonymous	31809	31370	439	0	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	436	C	C	1	0	436	CTA	0.254034287791225	0.254027089313249	Synonymous	Synonymous	35290	0	30021	0	5269
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	537	G	G	3	1	535	GAG	0.0662496663137121	0.066247554434008	Synonymous	Synonymous	31370	1076	0	30294	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	540	C	C	3	1	538	ATC	0.0246618213988959	0.0246610338335449	Synonymous	Synonymous	31314	0	30923	0	391
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	609	G	G	3	1	607	TGG	0.204339698266816	0.204331708132372	Nonsynonymous	Nonsynonymous	25574	2954	0	22620	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	628	G	G	1	1	628	GGG	0.0401579020000935	0.0401561468470339	Nonsynonymous	Nonsynonymous	22880	469	0	22411	0
+temp_vcf4_GD3_ferret5_day5.vcf	NS1	635	C	C	2	1	634	TCT	0.291757002331651	0.291743470630787	Nonsynonymous	Nonsynonymous	21561	0	17738	0	3823

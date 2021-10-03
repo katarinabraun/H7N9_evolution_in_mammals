@@ -1,0 +1,588 @@
+***********
+Beginning run at Wed, 08 Jan 2020 01:08:13 PM
+Beginning run at Wed, 08 Jan 2020 01:08:13 PM
+***********
+Processing samples for reference sequence GD3_ferret7_day1
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Calling replicate SNPs with Varscan
+GD3_ferret7_day1_rep1
+-----------
+GD3_ferret7_day1_rep2
+-----------
+***********
+Calling SNPs
+13:08:17	[mpileup] 1 samples in 1 input files
+13:09:38	Got the following sample list: 
+13:09:38	GD3_ferret7_day1_rep1
+13:09:38	Only SNPs will be reported
+13:09:38	Warning: No p-value threshold provided, so p-values will not be calculated
+13:09:38	Min coverage:	100
+13:09:38	Min reads2:	2
+13:09:38	Min var freq:	0.01
+13:09:38	Min avg qual:	30
+13:09:38	P-value thresh:	0.01
+13:09:38	Reading input from GD3_ferret7_day1_rep1.mpileup
+13:10:22	13115 bases in pileup file
+13:10:22	96 variant positions (93 SNP, 3 indel)
+13:10:22	0 were failed by the strand-filter
+13:10:22	93 variant positions reported (93 SNP, 0 indel)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_H7' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_N9' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_MP' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:10:22	Lines   total/split/realigned/skipped:	93/0/0/0
+13:10:22	REF/ALT total/modified/added:  	93/0/0
+13:08:17	[mpileup] 1 samples in 1 input files
+13:12:31	Got the following sample list: 
+13:12:31	GD3_ferret7_day1_rep2
+13:12:31	Only SNPs will be reported
+13:12:31	Warning: No p-value threshold provided, so p-values will not be calculated
+13:12:31	Min coverage:	100
+13:12:31	Min reads2:	2
+13:12:31	Min var freq:	0.01
+13:12:31	Min avg qual:	30
+13:12:31	P-value thresh:	0.01
+13:12:31	Reading input from GD3_ferret7_day1_rep2.mpileup
+13:13:29	13115 bases in pileup file
+13:13:29	89 variant positions (89 SNP, 0 indel)
+13:13:29	1 were failed by the strand-filter
+13:13:29	88 variant positions reported (88 SNP, 0 indel)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PB2' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PB1' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_PA' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_H7' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_NP' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_N9' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_MP' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	[W::vcf_parse] Contig 'A_GUANGDONG_17SF003_2016_NS' is not defined in the header. (Quick workaround: index the file with tabix.)
+13:13:29	Lines   total/split/realigned/skipped:	88/0/0/0
+13:13:29	REF/ALT total/modified/added:  	88/0/0
+['GD3_ferret7_day1_rep2_averaged.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+A_GUANGDONG_17SF003_2016_PA
+-----------
+A_GUANGDONG_17SF003_2016_H7
+-----------
+A_GUANGDONG_17SF003_2016_PB1
+-----------
+A_GUANGDONG_17SF003_2016_PB2
+-----------
+A_GUANGDONG_17SF003_2016_NP
+-----------
+A_GUANGDONG_17SF003_2016_N9
+-----------
+A_GUANGDONG_17SF003_2016_MP
+-----------
+A_GUANGDONG_17SF003_2016_NS
+-----------
+***********
+Getting Population Statistics
+-----------
+13:13:33	
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2
+13:13:33	
+13:13:33	
+13:13:33	################################################################################
+13:13:33	##                                                                            ##
+13:13:33	##                             SNPGenie Initiated!                            ##
+13:13:33	##                                                                            ##
+13:13:33	################################################################################
+13:13:33	
+13:13:33	  ###############################  LICENSE:  #################################
+13:13:33	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:33	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:33	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:33	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:33	  ############################################################################
+13:13:33	
+13:13:33	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:33	
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2
+13:13:33	
+13:13:33	Reading in FASTA file... COMPLETED.
+13:13:33	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:33	
+13:13:33	
+13:13:33	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:33	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:33	
+13:13:33	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:33	
+13:13:33	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:33	
+13:13:33	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:33	
+13:13:33	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:33	
+13:13:33	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:33	
+13:13:33	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:33	
+13:13:33	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2
+13:13:47	COMPLETED.
+13:13:47	
+13:13:47	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:47	
+13:13:47	
+13:13:47	Performing sliding window for all files, length 4 codons...
+13:13:47	
+13:13:47	
+13:13:47	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2
+13:13:51	
+13:13:51	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2
+13:13:51	
+13:13:51	################################################################################
+13:13:51	##                      SNPGenie completed successfully.                      ##
+13:13:51	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB2 folder.            ##
+13:13:51	################################################################################
+13:13:51	
+13:13:51	
+-----------
+13:13:33	
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1
+13:13:33	
+13:13:33	
+13:13:33	################################################################################
+13:13:33	##                                                                            ##
+13:13:33	##                             SNPGenie Initiated!                            ##
+13:13:33	##                                                                            ##
+13:13:33	################################################################################
+13:13:33	
+13:13:33	  ###############################  LICENSE:  #################################
+13:13:33	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:33	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:33	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:33	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:33	  ############################################################################
+13:13:33	
+13:13:33	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:33	
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1
+13:13:33	
+13:13:33	Reading in FASTA file... COMPLETED.
+13:13:33	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:33	
+13:13:33	
+13:13:33	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:33	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:33	
+13:13:33	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:33	
+13:13:33	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:33	
+13:13:33	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:33	
+13:13:33	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:33	
+13:13:33	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:33	
+13:13:33	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:33	
+13:13:33	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1
+13:13:49	COMPLETED.
+13:13:49	
+13:13:49	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:49	
+13:13:49	
+13:13:49	Performing sliding window for all files, length 4 codons...
+13:13:49	
+13:13:49	
+13:13:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1
+13:13:53	
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1
+13:13:53	
+13:13:53	################################################################################
+13:13:53	##                      SNPGenie completed successfully.                      ##
+13:13:53	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PB1 folder.            ##
+13:13:53	################################################################################
+13:13:53	
+13:13:53	
+-----------
+13:13:32	
+13:13:32	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA
+13:13:32	
+13:13:32	
+13:13:32	################################################################################
+13:13:32	##                                                                            ##
+13:13:32	##                             SNPGenie Initiated!                            ##
+13:13:32	##                                                                            ##
+13:13:32	################################################################################
+13:13:32	
+13:13:32	  ###############################  LICENSE:  #################################
+13:13:32	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:32	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:32	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:32	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:32	  ############################################################################
+13:13:32	
+13:13:32	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:32	
+13:13:32	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA
+13:13:32	
+13:13:32	Reading in FASTA file... COMPLETED.
+13:13:32	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:32	
+13:13:32	
+13:13:32	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:32	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:32	
+13:13:32	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:32	
+13:13:32	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:32	
+13:13:32	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:32	
+13:13:32	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:32	
+13:13:32	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:32	
+13:13:32	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:32	
+13:13:32	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:32	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA
+13:13:47	COMPLETED.
+13:13:47	
+13:13:47	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:47	
+13:13:47	
+13:13:47	Performing sliding window for all files, length 4 codons...
+13:13:47	
+13:13:47	
+13:13:47	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA
+13:13:50	
+13:13:50	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA
+13:13:50	
+13:13:50	################################################################################
+13:13:50	##                      SNPGenie completed successfully.                      ##
+13:13:50	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_PA folder.            ##
+13:13:50	################################################################################
+13:13:50	
+13:13:50	
+-----------
+13:13:32	
+13:13:32	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7
+13:13:32	
+13:13:32	
+13:13:32	################################################################################
+13:13:32	##                                                                            ##
+13:13:32	##                             SNPGenie Initiated!                            ##
+13:13:32	##                                                                            ##
+13:13:32	################################################################################
+13:13:32	
+13:13:32	  ###############################  LICENSE:  #################################
+13:13:32	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:32	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:32	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:32	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:33	  ############################################################################
+13:13:33	
+13:13:33	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:33	
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7
+13:13:33	
+13:13:33	Reading in FASTA file... COMPLETED.
+13:13:33	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:33	
+13:13:33	
+13:13:33	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:33	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:33	
+13:13:33	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:33	
+13:13:33	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:33	
+13:13:33	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:33	
+13:13:33	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:33	
+13:13:33	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:33	
+13:13:33	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:33	
+13:13:33	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:33	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7
+13:13:44	COMPLETED.
+13:13:44	
+13:13:44	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:44	
+13:13:44	
+13:13:44	Performing sliding window for all files, length 4 codons...
+13:13:44	
+13:13:44	
+13:13:44	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7
+13:13:46	
+13:13:46	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7
+13:13:46	
+13:13:46	################################################################################
+13:13:46	##                      SNPGenie completed successfully.                      ##
+13:13:46	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_H7 folder.            ##
+13:13:46	################################################################################
+13:13:46	
+13:13:46	
+-----------
+13:13:48	
+13:13:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP
+13:13:48	
+13:13:48	
+13:13:48	################################################################################
+13:13:48	##                                                                            ##
+13:13:48	##                             SNPGenie Initiated!                            ##
+13:13:48	##                                                                            ##
+13:13:48	################################################################################
+13:13:48	
+13:13:48	  ###############################  LICENSE:  #################################
+13:13:48	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:48	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:48	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:48	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:48	  ############################################################################
+13:13:48	
+13:13:48	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:48	
+13:13:48	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP
+13:13:48	
+13:13:48	Reading in FASTA file... COMPLETED.
+13:13:48	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:48	
+13:13:48	
+13:13:48	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:48	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:48	
+13:13:48	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:48	
+13:13:48	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:49	
+13:13:49	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:49	
+13:13:49	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:49	
+13:13:49	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:49	
+13:13:49	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:49	
+13:13:49	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:49	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP
+13:13:57	COMPLETED.
+13:13:57	
+13:13:57	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:57	
+13:13:57	
+13:13:57	Performing sliding window for all files, length 4 codons...
+13:13:57	
+13:13:57	
+13:13:57	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP
+13:13:59	
+13:13:59	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP
+13:13:59	
+13:13:59	################################################################################
+13:13:59	##                      SNPGenie completed successfully.                      ##
+13:13:59	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NP folder.            ##
+13:13:59	################################################################################
+13:13:59	
+13:13:59	
+-----------
+13:13:52	
+13:13:52	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9
+13:13:52	
+13:13:52	
+13:13:52	################################################################################
+13:13:52	##                                                                            ##
+13:13:52	##                             SNPGenie Initiated!                            ##
+13:13:52	##                                                                            ##
+13:13:52	################################################################################
+13:13:52	
+13:13:52	  ###############################  LICENSE:  #################################
+13:13:52	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:52	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:52	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:52	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:52	  ############################################################################
+13:13:52	
+13:13:52	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:53	
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9
+13:13:53	
+13:13:53	Reading in FASTA file... COMPLETED.
+13:13:53	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:53	
+13:13:53	
+13:13:53	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:53	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:53	
+13:13:53	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:53	
+13:13:53	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:53	
+13:13:53	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:53	
+13:13:53	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:53	
+13:13:53	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:53	
+13:13:53	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:53	
+13:13:53	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9
+13:14:00	COMPLETED.
+13:14:00	
+13:14:00	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:14:00	
+13:14:00	
+13:14:00	Performing sliding window for all files, length 4 codons...
+13:14:00	
+13:14:00	
+13:14:00	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9
+13:14:01	
+13:14:01	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9
+13:14:01	
+13:14:01	################################################################################
+13:14:01	##                      SNPGenie completed successfully.                      ##
+13:14:01	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_N9 folder.            ##
+13:14:01	################################################################################
+13:14:01	
+13:14:01	
+-----------
+13:13:53	
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:13:53	
+13:13:53	
+13:13:53	################################################################################
+13:13:53	##                                                                            ##
+13:13:53	##                             SNPGenie Initiated!                            ##
+13:13:53	##                                                                            ##
+13:13:53	################################################################################
+13:13:53	
+13:13:53	  ###############################  LICENSE:  #################################
+13:13:53	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:53	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:53	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:53	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:53	  ############################################################################
+13:13:53	
+13:13:53	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:53	
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:13:53	
+13:13:53	Reading in FASTA file... COMPLETED.
+13:13:53	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:53	
+13:13:53	
+13:13:53	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:53	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:53	
+13:13:53	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:53	
+13:13:53	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:53	
+13:13:53	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:53	
+13:13:53	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:53	
+13:13:53	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:53	
+13:13:53	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:53	
+13:13:53	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:53	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:13:57	
+13:13:57	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:13:59	COMPLETED.
+13:13:59	
+13:13:59	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:13:59	
+13:13:59	
+13:13:59	Performing sliding window for all files, length 4 codons...
+13:13:59	
+13:13:59	
+13:13:59	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:14:00	
+13:14:00	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP
+13:14:00	
+13:14:00	################################################################################
+13:14:00	##                      SNPGenie completed successfully.                      ##
+13:14:00	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_MP folder.            ##
+13:14:00	################################################################################
+13:14:00	
+13:14:00	
+-----------
+13:13:55	
+13:13:55	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:13:55	
+13:13:55	
+13:13:55	################################################################################
+13:13:55	##                                                                            ##
+13:13:55	##                             SNPGenie Initiated!                            ##
+13:13:55	##                                                                            ##
+13:13:55	################################################################################
+13:13:55	
+13:13:55	  ###############################  LICENSE:  #################################
+13:13:55	  ##            SNPGenie Copyright (C) 2015-18 Chase W. Nelson              ##
+13:13:55	  ##            This program comes with ABSOLUTELY NO WARRANTY;             ##
+13:13:55	  ##     This is free software, and you are welcome to redistribute it      ##
+13:13:55	  ##               under certain conditions; see LICENSE.txt.               ##
+13:13:55	  ############################################################################
+13:13:55	
+13:13:55	Your MIN. MINOR ALLELE FREQ. is 0.01. All variants falling below this frequency will be ignored.
+13:13:55	
+13:13:55	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:13:55	
+13:13:55	Reading in FASTA file... COMPLETED.
+13:13:55	Creating temp_vcf4_GD3_ferret7_day1_rep1.vcf...
+13:13:55	
+13:13:55	
+13:13:55	###########################  CURRENTLY PROCESSING:   ###########################
+13:13:55	temp_vcf4_GD3_ferret7_day1_rep1.vcf... VCF format detected
+13:13:55	
+13:13:55	Converting temp_vcf4_GD3_ferret7_day1_rep1.vcf to SNPGenie format...
+13:13:56	
+13:13:56	In file temp_vcf4_GD3_ferret7_day1_rep1.vcf, the newline type is: Unix (LF, \n)
+13:13:56	
+13:13:56	Calculating and storing protein-coding genome and variant data (that dogma stuff)... COMPLETED.
+13:13:56	
+13:13:56	Ligating gene segments (computationally, of course!)... COMPLETED.
+13:13:56	
+13:13:56	Calculating and storing non-protein-coding genome and variant data ("junk" gets a bad rap!)... COMPLETED.
+13:13:56	
+13:13:56	Processing all individual sites (nucleotides take time and memory; use a high-memory machine for eukaryotic chromosomes!)... COMPLETED.
+13:13:56	
+13:13:56	Processing population genetic estimates codon-by-codon (beware stochasticity!)... 
+13:13:56	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:13:57	
+13:13:57	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:14:01	COMPLETED.
+13:14:01	
+13:14:01	Performing final calculations, noncoding overlap analysis, and output... temp_vcf4_GD3_ferret7_day1_rep1.vcf COMPLETED.
+13:14:01	
+13:14:01	
+13:14:01	Performing sliding window for all files, length 4 codons...
+13:14:01	
+13:14:01	
+13:14:01	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:14:02	
+13:14:02	output_folder is /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS
+13:14:02	
+13:14:02	################################################################################
+13:14:02	##                      SNPGenie completed successfully.                      ##
+13:14:02	##             Please find results in the /Users/katbraun/Documents/research/kat_braun/projects/H7N9_transmission-bottlenecks/data_derived/analysis/GD3_ferret7_day1/GD3_ferret7_day1/SNPGenie_output/A_GUANGDONG_17SF003_2016_NS folder.            ##
+13:14:02	################################################################################
+13:14:02	
+13:14:02	
+***********
+***********
+Sniffles: Finished with a total runtime of 0:05:48.790000.
+
+GD3_ferret7_day1_rep1.bam, GD3_ferret7_day1_rep2.bam was/were not successfully snp called during run.
