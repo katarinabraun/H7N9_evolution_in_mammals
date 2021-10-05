@@ -1,0 +1,9 @@
+Gene,Sample,Covered_percent,Read_depth,Avg_fold,Std_Dev
+PB2,Anhui_ferret29_day07_rep1,100.0,40398.0,7232.8368,2233.9
+PB1,Anhui_ferret29_day07_rep1,100.0,81205.0,14690.2375,4517.56
+PA,Anhui_ferret29_day07_rep1,100.0,32053.5,6091.6704,2202.4
+H7,Anhui_ferret29_day07_rep1,100.0,34752.5,8538.3642,2932.2
+NP,Anhui_ferret29_day07_rep1,100.0,65963.0,17761.9593,5535.66
+N9,Anhui_ferret29_day07_rep1,100.0,62429.5,17451.8913,8317.88
+MP,Anhui_ferret29_day07_rep1,100.0,56640.5,22642.0743,9867.49
+NS,Anhui_ferret29_day07_rep1,100.0,46816.0,23084.0704,9735.68
