@@ -1,0 +1,11 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Tue Aug 13 00:29:22 2019
+temp_vcf4_GD3_ferret23_day5.vcf	NA	410	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	NA	1324	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	NA	1497	Variant 'C' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	NA	N/A	A total of 3 variants have been excluded because they fall below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	HA	410	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	HA	1324	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	HA	1497	Variant 'C' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_ferret23_day5.vcf	HA	N/A	A total of 3 variants have been excluded because they fall below the minimum minor allele frequency
+NA	NA	NA	SNPGenie completed at local time Tue Aug 13 00:29:31 2019. The process took 9.00 secs, i.e., 0 mins and 9.00 secs

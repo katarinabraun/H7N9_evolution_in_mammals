@@ -1,0 +1,40 @@
+##fileformat=VCFv4.2
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=JLL
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description='Quality Read Depth of bases with Phred score>
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description='Depth of variant-supporting bases (reads2)'>
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description='Variant allele frequency'>
+##contig=<ID=A_GUANGDONG_17SF003_2016_PB2>
+##contig=<ID=A_GUANGDONG_17SF003_2016_PB1>
+##contig=<ID=A_GUANGDONG_17SF003_2016_PA>
+##contig=<ID=A_GUANGDONG_17SF003_2016_H7>
+##contig=<ID=A_GUANGDONG_17SF003_2016_NP>
+##contig=<ID=A_GUANGDONG_17SF003_2016_N9>
+##contig=<ID=A_GUANGDONG_17SF003_2016_MP>
+##contig=<ID=A_GUANGDONG_17SF003_2016_NS>
+##INFO=<ID=ADP,Number=1,Type=Integer,Description="Average per-sample depth of bases with Phred score >= 30">
+##INFO=<ID=WT,Number=1,Type=Integer,Description="Number of samples called reference (wild-type)">
+##INFO=<ID=HET,Number=1,Type=Integer,Description="Number of samples called heterozygous-variant">
+##INFO=<ID=HOM,Number=1,Type=Integer,Description="Number of samples called homozygous-variant">
+##INFO=<ID=NC,Number=1,Type=Integer,Description="Number of samples not called">
+##FILTER=<ID=str10,Description="Less than 10% or more than 90% of variant supporting reads on one strand">
+##FILTER=<ID=indelError,Description="Likely artifact due to indel reads at this position">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Raw Read Depth as reported by SAMtools">
+##FORMAT=<ID=RD,Number=1,Type=Integer,Description="Depth of reference-supporting bases (reads1)">
+##FORMAT=<ID=PVAL,Number=1,Type=String,Description="P-value from Fisher's Exact Test">
+##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description="Average quality of reference-supporting bases (qual1)">
+##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description="Average quality of variant-supporting bases (qual2)">
+##FORMAT=<ID=RDF,Number=1,Type=Integer,Description="Depth of reference-supporting bases on forward strand (reads1plus)">
+##FORMAT=<ID=RDR,Number=1,Type=Integer,Description="Depth of reference-supporting bases on reverse strand (reads1minus)">
+##FORMAT=<ID=ADF,Number=1,Type=Integer,Description="Depth of variant-supporting bases on forward strand (reads2plus)">
+##FORMAT=<ID=ADR,Number=1,Type=Integer,Description="Depth of variant-supporting bases on reverse strand (reads2minus)">
+##bcftools_mergeVersion=1.9+htslib-1.9
+##bcftools_mergeCommand=merge -m none GD3_stock_averaged.vcf.gz GD3_stock_rep1.vcf.gz GD3_stock_rep2.vcf.gz; Date=Mon Jan 24 01:07:48 2022
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	GD3_stock	GD3_stock_rep1	GD3_stock_rep2
+A_GUANGDONG_17SF003_2016_N9	50	.	T	C	.	PASS	ADP=749;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	._.:.:.:.:.:.:.:.:.:.:.:.:.:.	0_1:27:764:749:740:9:1.2%:1.9065E-3:37:37:461:279:8:1	._.:.:.:.:.:.:.:.:.:.:.:.:.:.
+A_GUANGDONG_17SF003_2016_N9	866	.	A	G	.	PASS	ADP=4265;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1_1:3487026,4,4,4:875902521,0,4,4,255:9208:13365,4265,4943:9154:0.9941:0E0:13619,3163440,3163440:14131,3163440,3163440:14080:14080:14080:14080	1_1:255:4463:4265:30:4233:99.27%:0E0:35:37:16:14:2104:2129	1_1:255:5191:4943:22:4921:99.55%:0E0:36:37:8:14:2419:2502
+A_GUANGDONG_17SF003_2016_N9	903	.	G	A	.	PASS	ADP=4270;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1_1:3487026,4,4,4:808727353,0,4,4,255:9085:13620,4270,4815:9040:0.9951:0E0:14131,3163440,3163440:14131,3163440,3163440:14080:14080:14080:14080	1_1:255:4372:4270:18:4251:99.58%:0E0:37:37:14:4:2154:2097	1_1:255:4968:4815:25:4787:99.44%:0E0:36:37:10:15:2414:2373
+A_GUANGDONG_17SF003_2016_N9	916	.	G	A	.	PASS	ADP=4358;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1_1:3487026,4,4,4:959460665,0,4,4,255:9302:12596,4358,4944:9261:0.9956:0E0:14131,3163440,3163440:14131,3163440,3163440:14080:14080:14080:14080	1_1:255:4454:4358:14:4343:99.68%:0E0:37:37:11:3:2247:2096	1_1:255:5055:4944:28:4916:99.43%:0E0:37:37:14:14:2535:2381

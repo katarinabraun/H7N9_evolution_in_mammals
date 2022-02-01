@@ -1,0 +1,11 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_GD3_stock.vcf	NA	866	A	A	2	0	865	AAG	0.48253736812495	0.482515940114465	Nonsynonymous	Nonsynonymous	22519	13365	0	9154	0
+temp_vcf4_GD3_stock.vcf	NA	903	G	G	3	0	901	CAG	0.479595267289735	0.479574102450048	Synonymous	Synonymous	22660	9040	0	13620	0
+temp_vcf4_GD3_stock.vcf	NA	916	G	G	1	0	916	GCA	0.488381604748716	0.488359260346247	Nonsynonymous	Nonsynonymous	21857	9261	0	12596	0
+temp_vcf4_GD3_stock_rep1.vcf	NA	50	T	T	2	0	49	ATA	0.0237750155287264	0.0237432731848963	Nonsynonymous	Nonsynonymous	749	0	9	0	740
+temp_vcf4_GD3_stock_rep1.vcf	NA	866	A	G	2	0	865	AAG	0	0	Nonsynonymous	NONREF_NONPOLY	4233	0	0	4233	0
+temp_vcf4_GD3_stock_rep1.vcf	NA	903	G	A	3	0	901	CAG	0	0	Synonymous	NONREF_NONPOLY	4251	4251	0	0	0
+temp_vcf4_GD3_stock_rep1.vcf	NA	916	G	A	1	0	916	GCA	0	0	Nonsynonymous	NONREF_NONPOLY	4343	4343	0	0	0
+temp_vcf4_GD3_stock_rep2.vcf	NA	866	A	G	2	0	865	AAG	0	0	Nonsynonymous	NONREF_NONPOLY	4921	0	0	4921	0
+temp_vcf4_GD3_stock_rep2.vcf	NA	903	G	A	3	0	901	CAG	0	0	Synonymous	NONREF_NONPOLY	4787	4787	0	0	0
+temp_vcf4_GD3_stock_rep2.vcf	NA	916	G	A	1	0	916	GCA	0	0	Nonsynonymous	NONREF_NONPOLY	4916	4916	0	0	0

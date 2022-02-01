@@ -1,0 +1,46 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Mon Jan 24 01:07:51 2022
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (842019633,53,2,4,255) but is instead: 858798522. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (808924209,53,2,4,255) but is instead: 909456491. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (942747959,0,2,4,196) but is instead: 943208132. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (825766457,0,2,4,223) but is instead: 859256253. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (942879545,0,2,4,255) but is instead: 942946790. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	NA	NA	The reads total should equal the coverage (875704369,57,2,4,255) but is instead: 892483063. The reads total has been used. Please verify your data.
+temp_vcf4_GD3_stock.vcf	PA	417	There is a variant frequency <0.01%. If this was unexpected, make sure that the values in the "Frequency" column are percentages, not decimals.
+temp_vcf4_GD3_stock.vcf	NA	417	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	426	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	555	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	798	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	811	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	862	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	930	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1024	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1070	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1076	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1552	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1602	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1671	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1818	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1842	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	1917	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	2014	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	NA	N/A	A total of 17 variants have been excluded because they fall below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	417	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	426	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	555	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	798	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	811	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	862	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	930	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1024	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1070	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1076	Variant 'G' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1552	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1602	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1671	Variant 'A' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1818	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1842	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	1917	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	2014	Variant 'T' excluded from analysis because it falls below the minimum minor allele frequency
+temp_vcf4_GD3_stock.vcf	PA	N/A	A total of 17 variants have been excluded because they fall below the minimum minor allele frequency
+NA	NA	NA	SNPGenie completed at local time Mon Jan 24 01:08:59 2022. The process took 68.00 secs, i.e., 1 mins and 8.00 secs

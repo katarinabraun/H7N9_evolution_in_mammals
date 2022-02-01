@@ -1,0 +1,38 @@
+##fileformat=VCFv4.1
+##source=VarScan2
+##INFO=<ID=ADP,Number=1,Type=Integer,Description="Average per-sample depth of bases with Phred score >= 30">
+##INFO=<ID=WT,Number=1,Type=Integer,Description="Number of samples called reference (wild-type)">
+##INFO=<ID=HET,Number=1,Type=Integer,Description="Number of samples called heterozygous-variant">
+##INFO=<ID=HOM,Number=1,Type=Integer,Description="Number of samples called homozygous-variant">
+##INFO=<ID=NC,Number=1,Type=Integer,Description="Number of samples not called">
+##FILTER=<ID=str10,Description="Less than 10% or more than 90% of variant supporting reads on one strand">
+##FILTER=<ID=indelError,Description="Likely artifact due to indel reads at this position">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Raw Read Depth as reported by SAMtools">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Quality Read Depth of bases with Phred score >= 30">
+##FORMAT=<ID=RD,Number=1,Type=Integer,Description="Depth of reference-supporting bases (reads1)">
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description="Depth of variant-supporting bases (reads2)">
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description="Variant allele frequency">
+##FORMAT=<ID=PVAL,Number=1,Type=String,Description="P-value from Fisher's Exact Test">
+##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description="Average quality of reference-supporting bases (qual1)">
+##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description="Average quality of variant-supporting bases (qual2)">
+##FORMAT=<ID=RDF,Number=1,Type=Integer,Description="Depth of reference-supporting bases on forward strand (reads1plus)">
+##FORMAT=<ID=RDR,Number=1,Type=Integer,Description="Depth of reference-supporting bases on reverse strand (reads1minus)">
+##FORMAT=<ID=ADF,Number=1,Type=Integer,Description="Depth of variant-supporting bases on forward strand (reads2plus)">
+##FORMAT=<ID=ADR,Number=1,Type=Integer,Description="Depth of variant-supporting bases on reverse strand (reads2minus)">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	GD3_ferret23_day3_rep2
+A_GUANGDONG_17SF003_2016_PA	444	.	C	T	.	PASS	ADP=3957;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:113:3987:3957:3908:49:1.24%:4.5688E-12:37:37:2176:1732:27:22
+A_GUANGDONG_17SF003_2016_PA	475	.	G	A	.	PASS	ADP=4232;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:191:4325:4232:4152:80:1.89%:7.4599E-20:37:37:2285:1867:45:35
+A_GUANGDONG_17SF003_2016_PA	590	.	G	A	.	PASS	ADP=5652;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:5714:5652:5250:402:7.11%:2.0452E-115:37:37:2977:2273:224:178
+A_GUANGDONG_17SF003_2016_PA	1098	.	A	G	.	PASS	ADP=7453;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:7556:7453:7295:158:2.12%:6.0196E-39:37:37:3689:3606:71:87
+A_GUANGDONG_17SF003_2016_PA	1116	.	G	A	.	PASS	ADP=7786;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:255:7841:7786:7634:150:1.93%:1.209E-36:37:37:3659:3975:74:76
+A_GUANGDONG_17SF003_2016_PA	1746	.	A	G	.	PASS	ADP=3902;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:201:3941:3902:3822:80:2.05%:6.7481E-21:37:38:1955:1867:44:36
+A_GUANGDONG_17SF003_2016_PA	1882	.	G	A	.	PASS	ADP=4667;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:228:4721:4667:4574:93:1.99%:1.4933E-23:37:37:2132:2442:46:47
+A_GUANGDONG_17SF003_2016_H7	410	.	G	A	.	PASS	ADP=4490;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1/1:255:4525:4490:7:4482:99.82%:0E0:37:37:4:3:1893:2589
+A_GUANGDONG_17SF003_2016_H7	1324	.	T	C	.	PASS	ADP=6432;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1/1:255:6525:6432:3:6428:99.94%:0E0:34:37:0:3:3206:3222
+A_GUANGDONG_17SF003_2016_H7	1497	.	C	T	.	PASS	ADP=4949;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1/1:255:5056:4949:0:4949:100%:0E0:0:37:0:0:2206:2743
+A_GUANGDONG_17SF003_2016_N9	866	.	A	G	.	PASS	ADP=5738;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:121:5774:5738:5679:58:1.01%:7.3633E-13:37:35:2783:2896:20:38
+A_GUANGDONG_17SF003_2016_N9	903	.	G	A	.	PASS	ADP=5685;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1/1:255:5718:5685:1:5683:99.98%:0E0:38:37:1:0:2839:2844
+A_GUANGDONG_17SF003_2016_N9	916	.	G	A	.	PASS	ADP=5910;WT=0;HET=0;HOM=1;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	1/1:255:5930:5910:3:5906:99.93%:0E0:38:37:2:1:2976:2930
+A_GUANGDONG_17SF003_2016_NS	820	.	C	T	.	PASS	ADP=535;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:36:538:535:523:12:2.24%:2.2938E-4:37:35:152:371:4:8
