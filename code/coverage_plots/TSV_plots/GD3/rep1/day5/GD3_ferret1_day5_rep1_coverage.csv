@@ -1,9 +1,0 @@
-Gene,Sample,Covered_percent,Read_depth,Avg_fold,Std_Dev
-PB2,GD3_ferret01_day05_rep1,100.0,3220.0,650.1408,194.74
-PB1,GD3_ferret01_day05_rep1,100.0,4375.0,892.0453,274.81
-PA,GD3_ferret01_day05_rep1,100.0,5942.0,1257.5458,467.17
-H7,GD3_ferret01_day05_rep1,100.0,3020.0,820.9286,359.08
-NP,GD3_ferret01_day05_rep1,100.0,2792.0,850.3413,290.85
-N9,GD3_ferret01_day05_rep1,100.0,90995.0,26918.53,12618.65
-MP,GD3_ferret01_day05_rep1,100.0,3153.0,1433.1365,597.31
-NS,GD3_ferret01_day05_rep1,100.0,2973.5,1639.4642,642.82
