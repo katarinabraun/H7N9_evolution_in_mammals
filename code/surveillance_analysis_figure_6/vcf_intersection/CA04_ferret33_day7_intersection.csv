@@ -1,0 +1,17 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+21	NP_T84A_syn	84.0	0.0168	0.0165	0.0166499999999999	CA04_ferret33_day7_intersection.csv
+22	NP_G149A_S50N	149.0	0.0713	0.0859	0.0786	CA04_ferret33_day7_intersection.csv
+23	NP_G309A_syn	309.0	0.0281	0.0249	0.0265	CA04_ferret33_day7_intersection.csv
+12	HA_C432A_D144E	432.0	0.6823999999999999	0.7020000000000001	0.6921999999999999	CA04_ferret33_day7_intersection.csv
+30	NS1_G459A_syn	459.0	0.0824	0.0607	0.07155	CA04_ferret33_day7_intersection.csv
+32	NEP_A531G_Q20R	531.0	0.0619	0.0524	0.05715	CA04_ferret33_day7_intersection.csv
+31	NS1_A531G_syn	531.0	0.0619	0.0524	0.05715	CA04_ferret33_day7_intersection.csv
+14	HA_T598C_S200P	598.0	0.6707	0.6581999999999999	0.66445	CA04_ferret33_day7_intersection.csv
+15	HA_C622A_L208I	622.0	0.0471	0.0552	0.05115	CA04_ferret33_day7_intersection.csv
+5	PA_A624G_syn	624.0	0.1563	0.1987	0.1775	CA04_ferret33_day7_intersection.csv
+16	HA_A640G_T214A	640.0	0.0132	0.0127	0.01295	CA04_ferret33_day7_intersection.csv
+17	HA_G715A_D239N	715.0	0.119	0.0982	0.1086	CA04_ferret33_day7_intersection.csv
+18	HA_A716G_D239G	716.0	0.2215	0.2455	0.2334999999999999	CA04_ferret33_day7_intersection.csv
+19	HA_C839T_S280F	839.0	0.0136	0.0111	0.01235	CA04_ferret33_day7_intersection.csv
+24	NP_G885A_syn	885.0	0.0659	0.0593	0.0626	CA04_ferret33_day7_intersection.csv
+20	HA_G1071T_syn	1071.0	0.0127	0.0113	0.012	CA04_ferret33_day7_intersection.csv

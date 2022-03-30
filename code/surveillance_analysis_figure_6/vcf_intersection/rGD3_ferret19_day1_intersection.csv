@@ -1,0 +1,7 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+14	HA_G410A_G137E	410.0	0.9993	0.9995	1.0	rGD3_ferret19_day1_intersection.csv
+19	NA_G903A_syn	903.0	1.0	0.9995	1.0	rGD3_ferret19_day1_intersection.csv
+20	NA_G916A_A306T	916.0	0.9995	1.0	1.0	rGD3_ferret19_day1_intersection.csv
+15	HA_T1324C_syn	1324.0	1.0	0.9997	1.0	rGD3_ferret19_day1_intersection.csv
+16	HA_C1497T_syn	1497.0	1.0	0.9995	1.0	rGD3_ferret19_day1_intersection.csv
+0	PB2_A1827C_syn	1827.0	0.0151	0.0129	0.014	rGD3_ferret19_day1_intersection.csv

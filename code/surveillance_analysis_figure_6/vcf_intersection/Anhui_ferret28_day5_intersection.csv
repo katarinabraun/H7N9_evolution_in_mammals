@@ -1,0 +1,13 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+23	NA_C29T_T10I	29.0	1.0	1.0	1.0	Anhui_ferret28_day5_intersection.csv
+1	PB1_A99G_syn	99.0	0.0413	0.0369	0.0391	Anhui_ferret28_day5_intersection.csv
+18	HA_A421G_N141D	421.0	0.9997	0.9994	1.0	Anhui_ferret28_day5_intersection.csv
+19	HA_A499G_N167D	499.0	0.9998	1.0	1.0	Anhui_ferret28_day5_intersection.csv
+25	NEP_A698G_I76V	698.0	0.9994	0.9998	1.0	Anhui_ferret28_day5_intersection.csv
+21	HA_T704A_L235Q	704.0	0.9998	1.0	1.0	Anhui_ferret28_day5_intersection.csv
+24	M2_C838T_syn	838.0	0.9996	1.0	1.0	Anhui_ferret28_day5_intersection.csv
+2	PB1_G1785A_syn	1785.0	0.0172	0.0143	0.01575	Anhui_ferret28_day5_intersection.csv
+13	PA_C1873A_P625T	1873.0	0.0255	0.0364	0.03095	Anhui_ferret28_day5_intersection.csv
+15	PA_C1965A_syn	1965.0	0.9994	0.9998	1.0	Anhui_ferret28_day5_intersection.csv
+3	PB1_C2076T_syn	2076.0	0.0156	0.0145	0.01505	Anhui_ferret28_day5_intersection.csv
+4	PB1_T2188G_F730V	2188.0	0.0134	0.0136	0.0135	Anhui_ferret28_day5_intersection.csv

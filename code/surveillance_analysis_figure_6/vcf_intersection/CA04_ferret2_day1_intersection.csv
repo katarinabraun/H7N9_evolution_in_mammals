@@ -1,0 +1,5 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+4	NS1_C106A_L36I	106.0	0.2338	0.2101	0.22195	CA04_ferret2_day1_intersection.csv
+3	M1_T162G_syn	162.0	0.0729	0.066	0.06945	CA04_ferret2_day1_intersection.csv
+2	NP_G568A_A190T	568.0	0.0996	0.1096	0.1046	CA04_ferret2_day1_intersection.csv
+0	HA_G1188A_syn	1188.0	0.1187	0.0711	0.0949	CA04_ferret2_day1_intersection.csv

@@ -1,0 +1,14 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+0	PB2_G25A_D9N	25.0	0.0276	0.0231	0.0253499999999999	rGD3_ferret15_day5_intersection.csv
+14	HA_G410A_G137E	410.0	1.0	1.0	1.0	rGD3_ferret15_day5_intersection.csv
+1	PB2_G514A_V172I	514.0	0.0134	0.011	0.0121999999999999	rGD3_ferret15_day5_intersection.csv
+7	PA_C788A_T263K	788.0	0.0124	0.0559	0.03415	rGD3_ferret15_day5_intersection.csv
+19	NA_A866G_K289R	866.0	0.9998	0.9996	1.0	rGD3_ferret15_day5_intersection.csv
+20	NA_G903A_syn	903.0	0.9997	1.0	1.0	rGD3_ferret15_day5_intersection.csv
+21	NA_G916A_A306T	916.0	1.0	0.9997	1.0	rGD3_ferret15_day5_intersection.csv
+8	PA_G921A_syn	921.0	0.0615	0.0163	0.0389	rGD3_ferret15_day5_intersection.csv
+2	PB2_G1160A_S387N	1160.0	0.0118	0.0103	0.01105	rGD3_ferret15_day5_intersection.csv
+15	HA_T1324C_syn	1324.0	0.9997	0.9999	1.0	rGD3_ferret15_day5_intersection.csv
+16	HA_C1497T_syn	1497.0	1.0	1.0	1.0	rGD3_ferret15_day5_intersection.csv
+17	HA_T1594A_F532I	1594.0	0.0101	0.0141	0.0121	rGD3_ferret15_day5_intersection.csv
+5	PB1_A2044G_I682V	2044.0	0.011	0.019	0.015	rGD3_ferret15_day5_intersection.csv

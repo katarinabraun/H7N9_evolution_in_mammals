@@ -1,0 +1,15 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+19	M1_C249T_syn	249.0	0.0116	0.018	0.0148	rGD3_ferret16_day5_intersection.csv
+12	HA_G410A_G137E	410.0	1.0	1.0	1.0	rGD3_ferret16_day5_intersection.csv
+20	NEP_T832C_syn	832.0	0.0429	0.0593	0.0511	rGD3_ferret16_day5_intersection.csv
+15	NA_A866G_K289R	866.0	0.9998	0.9997	1.0	rGD3_ferret16_day5_intersection.csv
+16	NA_G903A_syn	903.0	1.0	1.0	1.0	rGD3_ferret16_day5_intersection.csv
+17	NA_G916A_A306T	916.0	0.9998	1.0	1.0	rGD3_ferret16_day5_intersection.csv
+18	NA_G1125A_syn	1125.0	0.0526	0.0541	0.05335	rGD3_ferret16_day5_intersection.csv
+0	PB2_T1199C_V400A	1199.0	0.0165	0.0159	0.0162	rGD3_ferret16_day5_intersection.csv
+13	HA_T1324C_syn	1324.0	0.9993	0.9998	1.0	rGD3_ferret16_day5_intersection.csv
+5	PB1_C1494T_syn	1494.0	0.0163	0.0106	0.01345	rGD3_ferret16_day5_intersection.csv
+14	HA_C1497T_syn	1497.0	0.9996	0.9994	1.0	rGD3_ferret16_day5_intersection.csv
+1	PB2_G1918A_V640M	1918.0	0.2649	0.2651	0.265	rGD3_ferret16_day5_intersection.csv
+2	PB2_T1972C_Y658H	1972.0	0.0155	0.0111	0.0133	rGD3_ferret16_day5_intersection.csv
+3	PB2_C1985T_T662I	1985.0	0.0248	0.0271	0.02595	rGD3_ferret16_day5_intersection.csv

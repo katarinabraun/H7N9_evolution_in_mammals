@@ -1,0 +1,4 @@
+Unnamed: 0	SNP	POS_x	rep1_percent	rep2_percent	%	filename
+0	PB2_T345C_syn	345.0	0.0147	0.014	0.01435	CA04_ferret5_day3_intersection.csv
+9	NA_A390G_syn	390.0	0.0901	0.1139	0.102	CA04_ferret5_day3_intersection.csv
+1	PB2_G1413A_syn	1413.0	0.0339	0.0369	0.0354	CA04_ferret5_day3_intersection.csv
