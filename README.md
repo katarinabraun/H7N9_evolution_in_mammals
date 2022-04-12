@@ -1,4 +1,4 @@
-# H7N9 avian influenza virus spillover infections are evolutionarily constrained by stochastic processes
+# Avian H7N9 influenza viruses are evolutionarily constrained by stochastic processes during replication and transmission in mammals
 
 ### Authors: 
 
